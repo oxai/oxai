@@ -10,6 +10,21 @@
 	z-index: 1;
 }
 
+.description {
+  font-weight: lighter;
+	z-index: 2;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 50vw;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50vh;
+	left: 25vw;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*background-color: red;*/
+}
+
 #large-header {
 	/*background-image: url('http://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');*/
   background-color: black;
@@ -17,13 +32,14 @@
 
 .main-title {
   font-weight: lighter;
+	font-size: 5em;
 	position: absolute;
 	margin: 0;
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 50%;
-	left: 50%;
+	top: 30vh;
+	left: 50vw;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
   text-transform: none;
