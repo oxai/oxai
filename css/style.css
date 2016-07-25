@@ -20,14 +20,16 @@
 	width: 50%;
 	color: #f9f1e9;
 	text-align: center;
-	top: 20%;
+	top: 10%;
 	left: 25%;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	/*background-color: red;*/
 }
 
 .description {
-	margin-top: 120px;
+	margin-top: 80px;
+	/*text-align: justify;
+  text-justify: inter-word;*/
 }
 
 #large-header {
