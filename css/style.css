@@ -32,6 +32,10 @@
   text-justify: inter-word;*/
 }
 
+#logo {
+	width:35vw;
+}
+
 #large-header {
 	/*background-image: url('http://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');*/
   background-color: black;
@@ -67,6 +71,9 @@
 	.demo-1 .main-title {
 		font-size: 3em;
 		margin-top: 15%
+	}
+	#logo {
+		width:70vw;
 	}
 
 }
