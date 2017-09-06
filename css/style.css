@@ -27,9 +27,13 @@
 }
 
 .description {
-	margin-top: 80px;
+	margin-top: 70px;
 	/*text-align: justify;
   text-justify: inter-word;*/
+}
+
+.logos img {
+	width: 15%
 }
 
 #logo {
