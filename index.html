@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35,14 +35,16 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <!-- <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                    <!-- <i class="fa fa-play-circle"></i> -->
+                    <img id="minilogo" src="img/logo2.png"></img>
+                      <span class="light">&nbsp;OX</span>AI
                 </a>
             </div>
 
@@ -51,40 +53,46 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#about">About</a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="#events">Events</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#about">Team</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
-    <div id="large-header" class="large-header">
+    <div id="large-header" class="large-header container">
       <canvas id="demo-canvas"></canvas>
-          <div class="welcome">
-            <!-- <h1 class="main-title">OxAI
-              <br> <span class="thin">Oxford Artificial Intelligence Society</span></h1> -->
-              <img id="logo" src="img/logo.png"/>
-              <!-- <h1 class="main-title"><span class="thin">Oxford Artificial Intelligence Society</span></h1> -->
+      <div class="row welcome">
+        <div class="welcome2">
+          <!-- <h1 class="main-title">OxAI
+          <br> <span class="thin">Oxford Artificial Intelligence Society</span></h1> -->
+          <img id="logo" src="img/logo.png"/>
+          <!-- <h1 class="main-title"><span class="thin">Oxford Artificial Intelligence Society</span></h1> -->
 
             <div class="description">
-            <p>The society’s mission is to provide a platform for the interaction of researchers, students, and professionals interested in Artificial Intelligence.<p/>
+              <p>The society’s mission is to provide a platform for the interaction of researchers, students, and professionals interested in Artificial Intelligence.<p/>
 
-            <p>We aim to be a catalyzer for debate, learning and development of AI technology and philosophy.<p/>
+              <p>We aim to be a catalyzer for debate, learning and development of AI technology and philosophy.<p/>
 
-            <p>To join the society send a blank message to <a href="mailto:oxai-subscribe@maillist.ox.ac.uk">oxai-subscribe@maillist.ox.ac.uk</a> <p/>
+              <p>To join the society send a blank message to <a href="mailto:oxai-subscribe@maillist.ox.ac.uk">oxai-subscribe@maillist.ox.ac.uk</a> <p/>
             </div>
-            <div class="logos">
-              <a href="https://www.turing.ac.uk/" target="_blank"><img src="img/partners/ATI_logo_white.svg" alt="" /></a>
-              <a href="https://foundersfactory.com/" target="_blank"><img src="img/partners/founders_factory.jpg" alt="" /></a>
-              <a href="https://www.maths.ox.ac.uk/" target="_blank"><img src="img/partners/maths_institute.jpg" alt="" /></a>
-            </div>
+      </div>
+    </div>
+    <div class="row logos">
+      <div class="container-fluid welcome">
+        <div class="row welcome2">
+          <div class="col-lg-4"><a href="https://www.turing.ac.uk/" target="_blank"><img src="img/partners/ATI_logo_white.svg" alt="" /></a></div>
+          <div class="col-lg-4"><a href="https://foundersfactory.com/" target="_blank"><img src="img/partners/founders_factory.jpg" alt="" /></a></div>
+          <div class="col-lg-4"><a href="https://www.maths.ox.ac.uk/" target="_blank"><img src="img/partners/maths_institute.jpg" alt="" /></a></div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -118,50 +126,144 @@
     </section> -->
 
     <!-- Download Section -->
-    <!-- <section id="download" class="content-section text-center">
+    <section id="events" class="text-center">
         <div class="download-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Events</h2>
+                    <!-- <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a> -->
+                  </div>
                 </div>
             </div>
-        </div>
-    </section> -->
-
-    <!-- Contact Section -->
-    <!-- <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+            <div id="events-timeline">
+              <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
             </div>
         </div>
-    </section> -->
+    </section>
+
+    <!-- Contact Section -->
+    <!-- col-lg-offset-2 -->
+    <!-- <section id="contact" class="container content-section text-center"> -->
+    <section id="about" class="container committee-section text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Team</h3>
+            </div>
+            <!-- <div class="row"> -->
+            <div class="col-lg-4 col-sm-6 text-center">
+              <img class="img-circle img-responsive img-center committee" src="img/people/rodrigo.jpg" alt="">
+              <h4>Rodrigo Mendoza
+                <!-- <small>President</small> -->
+              </h4>
+              <a target="_blank" href="https://www.linkedin.com/in/rodrigo-mendoza-smith-15213723/"><i class="fa fa-lg fa-linkedin"></i></a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a target="_blank" href="mailto:president@oxai.org"><i class="fa fa-lg fa-envelope-o"></i></a>
+              <br>
+              <br>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center ">
+              <img class="img-circle img-responsive img-center committee" src="img/people/sewook.jpg" alt="">
+              <h4>Sewook Oh
+                <!-- <small>Secretary</small> -->
+              </h4>
+              <a target="_blank" href="https://www.linkedin.com/in/sewook-oh-64935835/"><i class="fa fa-lg fa-linkedin"></i></a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a target="_blank" href="#"><i class="fa fa-lg fa-envelope-o"></i></a>
+              <br>
+              <br>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center ">
+              <img class="img-circle img-responsive img-center committee" src="img/people/ding.jpg" alt="">
+              <h4>Ding Shin Huang
+                <!-- <small>Founder/ Chief Advisor</small> -->
+              </h4>
+              <a target="_blank" href="https://www.linkedin.com/in/ding-shin-h-82523626"><i class="fa fa-lg fa-linkedin"></i></a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a target="_blank" href="mailto:ding.shin.huang@gmail.com"><i class="fa fa-lg fa-envelope-o"></i></a>
+              <br>
+              <br>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center ">
+                <img class="img-circle img-responsive img-center committee" src="img/people/guillermo.jpg" alt="">
+                <h4>Guillermo Valle
+                </h4>
+                <a target="_blank" href="https://www.linkedin.com/in/guillefix"><i class="fa fa-lg fa-linkedin"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="mailto:guillefix@gmail.com"><i class="fa fa-lg fa-envelope-o"></i></a>
+                <br>
+                <br>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center ">
+                <img class="img-circle img-responsive img-center committee" src="img/people/hailey.jpg" alt="">
+                <h4>Hailey Trier
+                </h4>
+                <a target="_blank" href="https://www.linkedin.com/in/hailey-trier/"><i class="fa fa-lg fa-linkedin"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="#"><i class="fa fa-lg fa-envelope-o"></i></a>
+                <br>
+                <br>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center ">
+                <img class="img-circle img-responsive img-center committee" src="img/people/tim.jpg" alt="">
+                <h4>Tim Rocktaeschel
+                </h4>
+                <a target="_blank" href="https://www.linkedin.com/in/rockt/"><i class="fa fa-lg fa-linkedin"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="#"><i class="fa fa-lg fa-envelope-o"></i></a>
+                <br>
+                <br>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center ">
+                <img class="img-circle img-responsive img-center committee" src="img/people/markus.jpg" alt="">
+                <h4>Markus Wulfmeier
+                </h4>
+                <a target="_blank" href="https://www.linkedin.com/in/markus-wulfmeier/"><i class="fa fa-lg fa-linkedin"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="#"><i class="fa fa-lg fa-envelope-o"></i></a>
+                <br>
+                <br>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center ">
+                <img class="img-circle img-responsive img-center committee" src="img/people/vani.jpg" alt="">
+                <h4>Vani Asawa
+                </h4>
+                <a target="_blank" href="https://www.linkedin.com/in/vaniasawa/"><i class="fa fa-lg fa-linkedin"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="#"><i class="fa fa-lg fa-envelope-o"></i></a>
+                <br>
+                <br>
+            </div>
+        </div>
+      </br>
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <!-- <h2>Follow us</h2> -->
+            <ul class="list-inline banner-social-buttons">
+              <li>
+                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+              </li>
+              <li>
+                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </section>
 
     <!-- Map Section -->
     <!-- <div id="map"></div> -->
 
     <!-- Footer -->
-    <!-- <footer>
+    <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Copyright &copy; OxAI 2017</p>
         </div>
-    </footer> -->
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
