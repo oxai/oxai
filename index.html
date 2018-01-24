@@ -1,4 +1,4 @@
-.<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,13 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>OxAI</title>
+    <title>OxAI - Oxford Artificial Intelligence Society</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"> -->
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -23,12 +25,15 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <meta name="description" content="The mission of the Oxford Artificial Intelligence Society is to provide a platform for the interaction of researchers, students, and professionals interested in Artificial Intelligence.">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 
 </head>
 
@@ -137,11 +142,38 @@
                   </div>
                 </div>
             </div>
-            <div id="events-timeline">
-              <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+            <div id="events-timeline" style="width: 100%; height: 600px">
+              <!-- <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe> -->
             </div>
         </div>
     </section>
+
+
+
+
+<!-- 2 -->
+<script src="js/timeline.js"></script>
+
+<!-- <div id='timeline-embed' style="width: 100%; height: 600px"></div> -->
+
+<!-- 3 -->
+<script type="text/javascript">
+  // The TL.Timeline constructor takes at least two arguments:
+  // the id of the Timeline container (no '#'), and
+  // the URL to your JSON data file or Google spreadsheet.
+  // the id must refer to an element "above" this code,
+  // and the element must have CSS styling to give it width and height
+  // optionally, a third argument with configuration options can be passed.
+  // See below for more about options.
+  var additionalOptions = {
+  start_at_end: true,
+  default_bg_color: {r:0, g:0, b:0},
+  // timenav_height: 250,
+  zoom_level: 2
+}
+  timeline = new TL.Timeline('events-timeline',
+    'https://docs.google.com/spreadsheets/d/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/edit#gid=0', additionalOptions);
+</script>
 
 
     <!-- Contact Section -->
