@@ -171,9 +171,16 @@
   default_bg_color: {r:0, g:0, b:0},
   // timenav_height: 250,
   zoom_level: 2
+
 }
-  timeline = new TL.Timeline('events-timeline',
-    'https://docs.google.com/spreadsheets/d/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/edit#gid=0', additionalOptions);
+
+// var eventsJson;
+$.getJSON("js/events.json", function(data) {
+  console.log(data);
+  window.timeline = new TL.Timeline('events-timeline', googleFeedJSONtoTimelineJSON(data), additionalOptions);
+});
+
+//Note, because I'm using the GoogleSheet JSON, I am using the function form timelineJS, so I exposed it by doing window.googleFeedJSONtoTimelineJSON = googleFeedJSONtoTimelineJSON;
 </script>
 
 
