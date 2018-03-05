@@ -312,8 +312,9 @@
 
     // var eventsJson;
     $(document).ready(function(){
+      console.log("hi");
       $.getJSON("js/events.json", function(data) {
-        // console.log(data);
+        console.log(data);
         window.timeline = new TL.Timeline('events-timeline', googleFeedJSONtoTimelineJSON(data), additionalOptions);
       });
     })
