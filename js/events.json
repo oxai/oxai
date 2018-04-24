@@ -918,7 +918,7 @@
           "$t": "STEM Champion is a conference that provides an educational, enjoyable and interactive experience. Students are divided into committees representing the various branches of STEM. They then explore a real-life case, to identify problems and contemplate their own solutions to these. We gave lead a session about Reinforcement Learning, which the students really enjoyed! Website: http://stemchampion.org/"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/stem_champion.png"
+          "$t": "http:\/\/oxai.org\/img\/stem_champion.jpg"
         },
         "gsx$background": {
           "$t": "#000000"
@@ -970,7 +970,7 @@
           "$t": "Join Oxford’s Emerging Tech Societies and Oxford Foundry for a fun party where you will be able to meet people with similar interests while learning more about the different societies! This event will enable you to connect with the main societies working on emerging technologies at Oxford!</br>There will be frosty beverages, nibbles, fun activities and several prize draw worth a total £230! </br><a href=\"https://www.facebook.com/events/192950614847618/\">Event page</a>"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/stem_champion.png"
+          "$t": "http:\/\/oxai.org\/img\/emerging_tech_party.jpg"
         },
         "gsx$background": {
           "$t": "#000000"
