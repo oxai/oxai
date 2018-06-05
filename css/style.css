@@ -1,15 +1,4 @@
-/* Header */
-.large-header {
-	position: relative;
-	width: 100%;
-  /*height: 100%;*/
-	min-height: 650px;
-	background: #333;
-	/*overflow: auto;*/
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-}
+/*Navbar*/
 
 .navbar-brand {
 	visibility: hidden;
@@ -32,10 +21,68 @@
 	border: solid 1px #42DCA4;
    }
 
+#minilogo {
+	display: inline-block;
+	width:30px;
+	margin-top:-6px;
+}
+
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+  /*height: 100%;*/
+	min-height: 650px;
+	background: black;
+	/*overflow: auto;*/
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+	margin-bottom: 75px;
+}
+
+#demo-canvas { /*where network background animation lives*/
+	position: absolute;
+	pointer-events: none;
+}
+
+.welcome {
+	font-weight: lighter;
+	  z-index: 2;
+	  /*position: absolute;*/
+	  margin: 0;
+	  padding: 0;
+	  color: #f9f1e9;
+	  text-align: center;
+	  /*top: 10%;
+	  left: 25%;*/
+	  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	  background-color: rgba(0,0,0,0);
+  }
+  
+  .welcome2 { /*for centering welcome div*/
+	  width: 50%;
+	  margin: auto;
+  }
+  
+  .description {
+	  margin-bottom: -15px;
+	  /* margin-top: 5%; */
+	  /*text-align: justify;
+	text-justify: inter-word;*/
+  }
+  
+  #logo {
+	  width:35vw;
+  }
+
+/*Sponsors*/
+
+
 .centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .sponsors {
@@ -46,101 +93,17 @@
 	max-width: 30%;
 	display: inline-block;
 	float: none;
-  }
-
-#minilogo {
-	display: inline-block;
-	width:30px;
-	margin-top:-6px;
 }
 
-#events {
-	height: 100%;
-	/*height: 100%;*/
-	min-height: 650px;
+.sponsors img {
+	width:70%;
 }
 
-#demo-canvas {
-	position: absolute;
-	pointer-events: none;
-}
-
-.welcome {
-  font-weight: lighter;
-	z-index: 2;
-	/*position: absolute;*/
-	margin: 0;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	/*top: 10%;
-	left: 25%;*/
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	background-color: rgba(0,0,0,0);
-}
-
-.welcome2 {
-	width: 50%;
-	margin: auto;
-}
-
-section, .large-header {
-	display: block;
-}
-
-.large-header {
-	margin-bottom: 75px;
-}
-
-.description {
-	margin-bottom: -15px;
-	/* margin-top: 5%; */
-	/*text-align: justify;
-  text-justify: inter-word;*/
-}
-
-.logos img {
-	width: 60%;
-}
-
-.logos {
+.sponsors-container {
 	margin-bottom: 2%;
 }
 
-#logo {
-	width:35vw;
-}
-
-#large-header {
-	/*background-image: url('http://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');*/
-  background-color: black;
-}
-
-.main-title {
-  font-weight: lighter;
-	font-size: 5em;
-	/*position: absolute;*/
-	/*margin: 0;
-	padding: 0;*/
-	color: #f9f1e9;
-	text-align: center;
-	/*top: 30vh;*/
-	/*left: 50vw;*/
-	/*-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);*/
-  text-transform: none;
-}
-
-.demo-1 .main-title {
-	text-transform: uppercase;
-	font-size: 4.2em;
-	letter-spacing: 0.1em;
-}
-
-.main-title .thin {
-  font-size: 0.5em;
-	font-weight: 100;
-}
+/*Responsiveness*/
 
 @media only screen and (max-width : 768px) {
 	.demo-1 .main-title {
@@ -173,28 +136,13 @@ section, .large-header {
 
 }
 
-/**/
-
-.img-center {
-	margin: 0 auto;
-}
-
-.committee {
-	display: block;
-    width: 150px;
-    height: 150px;
-		margin: 10px auto;
-}
-
-.committee-section h4 > small{
-	display: block;
-}
-
-.committee-section h4 {
-	margin-bottom: 10px;
-}
-
 /*EVENTS TIMELINE*/
+
+#events {
+	height: 100%;
+	/*height: 100%;*/
+	min-height: 650px;
+}
 
 #events-timeline {
 	width: 100%;
@@ -244,9 +192,6 @@ section, .large-header {
 .tl-menubar-button {
 	background-color: black;
 }
-/* .tl-menubar-button {
-	background-color:
-} */
 
 h2.tl-headline {
 	color:#42DCA4 !important;
@@ -254,4 +199,25 @@ h2.tl-headline {
 
 .tl-attribution {
 	background-color: black !important;
+}
+
+/*COMMITTEE*/
+
+.img-center {
+	margin: 0 auto;
+}
+
+.committee {
+	display: block;
+    width: 150px;
+    height: 150px;
+		margin: 10px auto;
+}
+
+.committee-section h4 > small{
+	display: block;
+}
+
+.committee-section h4 {
+	margin-bottom: 10px;
 }
