@@ -19,6 +19,12 @@
 	visibility: visible;
 }
 
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #minilogo {
 	display: inline-block;
 	width:30px;
