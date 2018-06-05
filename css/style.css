@@ -31,6 +31,16 @@
   justify-content: center;
 }
 
+.sponsors {
+	text-align:center;
+}
+
+.sponsors div{
+	max-width: 30%;
+	display: inline-block;
+	float: none;
+  }
+
 #minilogo {
 	display: inline-block;
 	width:30px;
@@ -72,10 +82,11 @@ section, .large-header {
 }
 
 .large-header {
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 }
 
 .description {
+	margin-bottom: -15px;
 	/* margin-top: 5%; */
 	/*text-align: justify;
   text-justify: inter-word;*/
@@ -134,11 +145,14 @@ section, .large-header {
 	}
 	.large-header {
 		/*height: 1000px;*/
-		margin-bottom: 200px;
+		margin-bottom: 500px;
 	}
 	#events {
 		/*height: 1000px;*/
 		margin-bottom: 100px;
+	}
+	.sponsors div {
+		margin:10px;
 	}
 
 }
