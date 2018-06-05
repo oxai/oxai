@@ -19,6 +19,12 @@
 	visibility: visible;
 }
 
+btn-primary {
+ background-color: black;
+ color: #15B2A4;
+ border: 1px #15B2A4;
+}
+
 .centered {
   display: flex;
   align-items: center;
@@ -136,10 +142,6 @@
 		left: 12.5%;
 	}
 
-}
-
-sectoin {
-	display: block;
 }
 
 /**/
