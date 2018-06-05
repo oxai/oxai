@@ -1,3 +1,7 @@
+section {
+	height-min: 100vh;
+}
+
 /*Navbar*/
 
 .navbar-brand {
@@ -66,8 +70,8 @@
   }
   
   .description {
-	  margin-bottom: -15px;
-	  /* margin-top: 5%; */
+	  /* margin-bottom: -15px; */
+	  margin-top: 5%;
 	  /*text-align: justify;
 	text-justify: inter-word;*/
   }
@@ -95,8 +99,12 @@
 	float: none;
 }
 
+#intro-doc-button {
+	margin-bottom: 50px;
+}
+
 .sponsors img {
-	width:70%;
+	width:80%;
 }
 
 .sponsors-container {
@@ -106,22 +114,11 @@
 /*Responsiveness*/
 
 @media only screen and (max-width : 768px) {
-	.demo-1 .main-title {
-		font-size: 3em;
-		margin-top: 15%
-	}
 	#logo {
 		width:70vw;
 	}
-	.large-header {
-		/*height: 1000px;*/
-		margin-bottom: 500px;
-	}
-	#events {
-		/*height: 1000px;*/
-		margin-bottom: 100px;
-	}
 	.sponsors div {
+		max-width: 100%;		
 		margin:10px;
 	}
 
