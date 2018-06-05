@@ -21,9 +21,16 @@
 
 .btn-primary {
  background-color: black;
- color: #15B2A4;
- border: solid 1px #15B2A4;
+ color: #42DCA4;
+ border: solid 1px #42DCA4;
 }
+
+.btn-primary:hover {
+	background-color: #42DCA4;
+	color: black;
+	/* font-weight: bold; */
+	border: solid 1px #42DCA4;
+   }
 
 .centered {
   display: flex;
@@ -202,7 +209,8 @@ section, .large-header {
 	/* height: 40px !important; */
 	box-shadow: none !important;
 	background: black !important;
-	border: 1px solid #15B2A4 !important;
+	/* border: 1px solid #15B2A4 !important; #42DCA4 */
+	border: 1px solid #42DCA4 !important; 
 }
 
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"], .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-] {
@@ -241,7 +249,7 @@ section, .large-header {
 } */
 
 h2.tl-headline {
-	color:#15B2A4 !important;
+	color:#42DCA4 !important;
 }
 
 .tl-attribution {
