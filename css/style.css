@@ -19,10 +19,10 @@
 	visibility: visible;
 }
 
-btn-primary {
+.btn-primary {
  background-color: black;
  color: #15B2A4;
- border: 1px #15B2A4;
+ border: solid 1px #15B2A4;
 }
 
 .centered {
@@ -67,8 +67,16 @@ btn-primary {
 	margin: auto;
 }
 
+section, .large-header {
+	display: block;
+}
+
+.large-header {
+	margin-bottom: 100px;
+}
+
 .description {
-	margin-top: 5%;
+	/* margin-top: 5%; */
 	/*text-align: justify;
   text-justify: inter-word;*/
 }
@@ -164,6 +172,8 @@ btn-primary {
 .committee-section h4 {
 	margin-bottom: 10px;
 }
+
+/*EVENTS TIMELINE*/
 
 #events-timeline {
 	width: 100%;
