@@ -117,11 +117,11 @@ body {
 }
 
 .sponsors-container {
-	margin-bottom: 10vh;
+	margin: 0 0 10vh 0;
 }
 
 .partners-container {
-	margin-bottom: 30vh;
+	margin: 0 0 30vh 0;
 }
 
 /*Responsiveness*/
@@ -199,9 +199,9 @@ body {
 	background-color: black;
 }
 
-/* .tl-timeaxis-content-container, .tl-timenav-slider, .tl-timenav, .tl-timenav-slider-background, .sponsors-container, .partners-container, .welcome {
+.tl-timeaxis-content-container, .tl-timenav-slider, .tl-timenav, .tl-timenav-slider-background, .sponsors-container, .partners-container, .welcome {
 	width: 100% !important;
-} */
+}
 
 body{
     overflow-x:hidden;
