@@ -2,19 +2,19 @@
   "version": "1.0",
   "encoding": "UTF-8",
   "feed": {
-    "xmlns": "http:\/\/www.w3.org\/2005\/Atom",
-    "xmlns$openSearch": "http:\/\/a9.com\/-\/spec\/opensearchrss\/1.0\/",
-    "xmlns$gsx": "http:\/\/schemas.google.com\/spreadsheets\/2006\/extended",
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
     "id": {
-      "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values"
+      "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values"
     },
     "updated": {
       "$t": "2018-02-03T16:17:26.540Z"
     },
     "category": [
       {
-        "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-        "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+        "scheme": "http://schemas.google.com/spreadsheets/2006",
+        "term": "http://schemas.google.com/spreadsheets/2006#list"
       }
     ],
     "title": {
@@ -24,23 +24,23 @@
     "link": [
       {
         "rel": "alternate",
-        "type": "application\/atom+xml",
-        "href": "https:\/\/docs.google.com\/spreadsheets\/d\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/pubhtml"
+        "type": "application/atom+xml",
+        "href": "https://docs.google.com/spreadsheets/d/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/pubhtml"
       },
       {
-        "rel": "http:\/\/schemas.google.com\/g\/2005#feed",
-        "type": "application\/atom+xml",
-        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values"
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values"
       },
       {
-        "rel": "http:\/\/schemas.google.com\/g\/2005#post",
-        "type": "application\/atom+xml",
-        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values"
+        "rel": "http://schemas.google.com/g/2005#post",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values"
       },
       {
         "rel": "self",
-        "type": "application\/atom+xml",
-        "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values?alt=json"
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values?alt=json"
       }
     ],
     "author": [
@@ -62,15 +62,15 @@
     "entry": [
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cokwr"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cokwr"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -79,13 +79,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 11, day: 25, headline: OxAI talk: Sander Dieleman (Google DeepMind), text: <a href=\"https:\/\/www.facebook.com\/events\/1712847589042067\">Facebook event<\/a>, media: http:\/\/oxai.org\/img\/deepmind.png, background: #000000"
+          "$t": "month: 11, day: 25, headline: OxAI talk: Sander Dieleman (Google DeepMind), text: <a href=\"https://www.facebook.com/events/1712847589042067\">Facebook event</a>, media: http://oxai.org/img/deepmind.png, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cokwr"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cokwr"
           }
         ],
         "gsx$year": {
@@ -119,10 +119,10 @@
           "$t": "OxAI talk: Sander Dieleman (Google DeepMind)"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/1712847589042067\">Facebook event<\/a>"
+          "$t": "<a href=\"https://www.facebook.com/events/1712847589042067\">Facebook event</a>"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/deepmind.png"
+          "$t": "http://oxai.org/img/deepmind.png"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -145,15 +145,15 @@
       },
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cpzh4"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cpzh4"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -162,13 +162,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 3, day: 17, headline: \t\nOxAI talk: Nathan Benaich, text: <a href=\"https:\/\/www.facebook.com\/events\/1842791935961777\">Facebook event<\/a>. So, you want to found an AI startup? <a href=\"https:\/\/www.getrevue.co\/profile\/nathanbenaich\/\">Nathan.ai<\/a>, media: http:\/\/oxai.org\/img\/nathan.png, background: #000000"
+          "$t": "month: 3, day: 17, headline: \t\nOxAI talk: Nathan Benaich, text: <a href=\"https://www.facebook.com/events/1842791935961777\">Facebook event</a>. So, you want to found an AI startup? <a href=\"https://www.getrevue.co/profile/nathanbenaich/\">Nathan.ai</a>, media: http://oxai.org/img/nathan.png, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cpzh4"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cpzh4"
           }
         ],
         "gsx$year": {
@@ -202,10 +202,10 @@
           "$t": "\t\nOxAI talk: Nathan Benaich"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/1842791935961777\">Facebook event<\/a>. So, you want to found an AI startup? <a href=\"https:\/\/www.getrevue.co\/profile\/nathanbenaich\/\">Nathan.ai<\/a>"
+          "$t": "<a href=\"https://www.facebook.com/events/1842791935961777\">Facebook event</a>. So, you want to found an AI startup? <a href=\"https://www.getrevue.co/profile/nathanbenaich/\">Nathan.ai</a>"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/nathan.png"
+          "$t": "http://oxai.org/img/nathan.png"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -228,15 +228,15 @@
       },
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cre1l"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cre1l"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -245,13 +245,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 4, day: 28, headline: Machine Learning in Materials Science - Prof Harry Bhadeshia, text: <a href=\"https:\/\/www.facebook.com\/events\/1287630147998504\">Facebook event<\/a>. In this talk he gave us an insight into machine learning, in particular neural networks in dealing with extremely complex problems in materials science. \n<a href=\"https:\/\/www.youtube.com\/watch?v=PO20huRvzBs&app=desktop\">Video<\/a>, media: http:\/\/oxai.org\/img\/badisha.jpg, background: #000000"
+          "$t": "month: 4, day: 28, headline: Machine Learning in Materials Science - Prof Harry Bhadeshia, text: <a href=\"https://www.facebook.com/events/1287630147998504\">Facebook event</a>. In this talk he gave us an insight into machine learning, in particular neural networks in dealing with extremely complex problems in materials science. \n<a href=\"https://www.youtube.com/watch?v=PO20huRvzBs&app=desktop\">Video</a>, media: http://oxai.org/img/badisha.jpg, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cre1l"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cre1l"
           }
         ],
         "gsx$year": {
@@ -285,10 +285,10 @@
           "$t": "Machine Learning in Materials Science - Prof Harry Bhadeshia"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/1287630147998504\">Facebook event<\/a>. In this talk he gave us an insight into machine learning, in particular neural networks in dealing with extremely complex problems in materials science. \n<a href=\"https:\/\/www.youtube.com\/watch?v=PO20huRvzBs&app=desktop\">Video<\/a>"
+          "$t": "<a href=\"https://www.facebook.com/events/1287630147998504\">Facebook event</a>. In this talk he gave us an insight into machine learning, in particular neural networks in dealing with extremely complex problems in materials science. \n<a href=\"https://www.youtube.com/watch?v=PO20huRvzBs&app=desktop\">Video</a>"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/badisha.jpg"
+          "$t": "http://oxai.org/img/badisha.jpg"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -311,15 +311,15 @@
       },
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/chk2m"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/chk2m"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -328,13 +328,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 5, day: 30, headline: ZINC: Founding a startup to solve big social problems, text: <a href=\"https:\/\/www.facebook.com\/events\/1030025840461980\">Facebook event<\/a>. Zinc is a new organisation dedicated to replicating the high-tech innovation system in the social sciences., media: http:\/\/oxai.org\/img\/zinclogo.png, background: #000000"
+          "$t": "month: 5, day: 30, headline: ZINC: Founding a startup to solve big social problems, text: <a href=\"https://www.facebook.com/events/1030025840461980\">Facebook event</a>. Zinc is a new organisation dedicated to replicating the high-tech innovation system in the social sciences., media: http://oxai.org/img/zinclogo.png, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/chk2m"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/chk2m"
           }
         ],
         "gsx$year": {
@@ -368,10 +368,10 @@
           "$t": "ZINC: Founding a startup to solve big social problems"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/1030025840461980\">Facebook event<\/a>. Zinc is a new organisation dedicated to replicating the high-tech innovation system in the social sciences."
+          "$t": "<a href=\"https://www.facebook.com/events/1030025840461980\">Facebook event</a>. Zinc is a new organisation dedicated to replicating the high-tech innovation system in the social sciences."
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/zinclogo.png"
+          "$t": "http://oxai.org/img/zinclogo.png"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -394,15 +394,15 @@
       },
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/ciyn3"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/ciyn3"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -411,13 +411,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 5, day: 31, headline: OxAI Film Night - Transcendence, text: <a href=\"https:\/\/www.facebook.com\/events\/225851191241320\">Facebook event<\/a>. Join us for some popcorn and discussion for the future of humanity! \n\n, media: http:\/\/oxai.org\/img\/transcendence.jpg, background: #000000"
+          "$t": "month: 5, day: 31, headline: OxAI Film Night - Transcendence, text: <a href=\"https://www.facebook.com/events/225851191241320\">Facebook event</a>. Join us for some popcorn and discussion for the future of humanity! \n\n, media: http://oxai.org/img/transcendence.jpg, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/ciyn3"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/ciyn3"
           }
         ],
         "gsx$year": {
@@ -451,10 +451,10 @@
           "$t": "OxAI Film Night - Transcendence"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/225851191241320\">Facebook event<\/a>. Join us for some popcorn and discussion for the future of humanity! \n\n"
+          "$t": "<a href=\"https://www.facebook.com/events/225851191241320\">Facebook event</a>. Join us for some popcorn and discussion for the future of humanity! \n\n"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/transcendence.jpg"
+          "$t": "http://oxai.org/img/transcendence.jpg"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -477,15 +477,15 @@
       },
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/ckd7g"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/ckd7g"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -494,13 +494,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 6, day: 7, headline: How to turn AI \/ Big Data ideas into billion dollar businesses., text: <a href=\"https:\/\/www.facebook.com\/events\/258851504522286\">Facebook event<\/a>. First event in collaboration with Founders Factory\n\n, media: http:\/\/oxai.org\/img\/partners\/founders_factory.jpg, background: #000000"
+          "$t": "month: 6, day: 7, headline: How to turn AI / Big Data ideas into billion dollar businesses., text: <a href=\"https://www.facebook.com/events/258851504522286\">Facebook event</a>. First event in collaboration with Founders Factory\n\n, media: http://oxai.org/img/partners/founders_factory.jpg, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/ckd7g"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/ckd7g"
           }
         ],
         "gsx$year": {
@@ -531,13 +531,13 @@
           "$t": ""
         },
         "gsx$headline": {
-          "$t": "How to turn AI \/ Big Data ideas into billion dollar businesses."
+          "$t": "How to turn AI / Big Data ideas into billion dollar businesses."
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/258851504522286\">Facebook event<\/a>. First event in collaboration with Founders Factory\n\n"
+          "$t": "<a href=\"https://www.facebook.com/events/258851504522286\">Facebook event</a>. First event in collaboration with Founders Factory\n\n"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/partners\/founders_factory.jpg"
+          "$t": "http://oxai.org/img/partners/founders_factory.jpg"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -560,15 +560,15 @@
       },
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/clrrx"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/clrrx"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -577,13 +577,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 10, day: 12, headline: AI in Healthcare, text: <a href=\"https:\/\/www.facebook.com\/events\/1800563356855805\">Facebook event<\/a>. We bring several successful entrepreneurs, researchers and business-owners who are making waves in healthcare innovation through Artificial Intelligence., media: http:\/\/oxai.org\/img\/ai_healthcare.jpg, background: #000000"
+          "$t": "month: 10, day: 12, headline: AI in Healthcare, text: <a href=\"https://www.facebook.com/events/1800563356855805\">Facebook event</a>. We bring several successful entrepreneurs, researchers and business-owners who are making waves in healthcare innovation through Artificial Intelligence., media: http://oxai.org/img/ai_healthcare.jpg, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/clrrx"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/clrrx"
           }
         ],
         "gsx$year": {
@@ -617,10 +617,10 @@
           "$t": "AI in Healthcare"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/1800563356855805\">Facebook event<\/a>. We bring several successful entrepreneurs, researchers and business-owners who are making waves in healthcare innovation through Artificial Intelligence."
+          "$t": "<a href=\"https://www.facebook.com/events/1800563356855805\">Facebook event</a>. We bring several successful entrepreneurs, researchers and business-owners who are making waves in healthcare innovation through Artificial Intelligence."
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/ai_healthcare.jpg"
+          "$t": "http://oxai.org/img/ai_healthcare.jpg"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -643,15 +643,15 @@
       },
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cyevm"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cyevm"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -660,13 +660,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 10, day: 17, headline: OxAI Film Night - Blade Runner 2049, text: <a href=\"https:\/\/www.facebook.com\/events\/145229299549712\">Facebook event<\/a>. As per tradition, OxAI will sponsor 10 student tickets to watch \"Blade Runner 2049\" on Tuesday (October 17) evening at the Odeon on George St., media: http:\/\/oxai.org\/img\/blade_runner.jpg, background: #000000"
+          "$t": "month: 10, day: 17, headline: OxAI Film Night - Blade Runner 2049, text: <a href=\"https://www.facebook.com/events/145229299549712\">Facebook event</a>. As per tradition, OxAI will sponsor 10 student tickets to watch \"Blade Runner 2049\" on Tuesday (October 17) evening at the Odeon on George St., media: http://oxai.org/img/blade_runner.jpg, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cyevm"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cyevm"
           }
         ],
         "gsx$year": {
@@ -700,10 +700,10 @@
           "$t": "OxAI Film Night - Blade Runner 2049"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/145229299549712\">Facebook event<\/a>. As per tradition, OxAI will sponsor 10 student tickets to watch \"Blade Runner 2049\" on Tuesday (October 17) evening at the Odeon on George St."
+          "$t": "<a href=\"https://www.facebook.com/events/145229299549712\">Facebook event</a>. As per tradition, OxAI will sponsor 10 student tickets to watch \"Blade Runner 2049\" on Tuesday (October 17) evening at the Odeon on George St."
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/blade_runner.jpg"
+          "$t": "http://oxai.org/img/blade_runner.jpg"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -726,15 +726,15 @@
       },
       {
         "id": {
-          "$t": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cztg3"
+          "$t": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cztg3"
         },
         "updated": {
           "$t": "2018-02-03T16:17:26.540Z"
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -743,13 +743,13 @@
         },
         "content": {
           "type": "text",
-          "$t": "month: 1, day: 27, headline: Oxford University CodeSoc and AI Society Mini-Hack!, text: <a href=\"https:\/\/www.facebook.com\/events\/215423029025473\/\">Facebook event<\/a>. Our first mini-hack in collaboration with Oxford Coding Society and Oxford AI Games club! We've had over 120 signups in Oxford, and another 250 at universities worldwide, featuring competition from Harvard, MIT, Imperial, and Cambridge.\n\nDominos, Happy Cakes and G&D cafe have confirmed that they'll be bringing food and Bloomberg and TPP will be doing giveaways., media: http:\/\/oxai.org\/img\/mini-hack.jpg, background: #000000"
+          "$t": "month: 1, day: 27, headline: Oxford University CodeSoc and AI Society Mini-Hack!, text: <a href=\"https://www.facebook.com/events/215423029025473/\">Facebook event</a>. Our first mini-hack in collaboration with Oxford Coding Society and Oxford AI Games club! We've had over 120 signups in Oxford, and another 250 at universities worldwide, featuring competition from Harvard, MIT, Imperial, and Cambridge.\n\nDominos, Happy Cakes and G&D cafe have confirmed that they'll be bringing food and Bloomberg and TPP will be doing giveaways., media: http://oxai.org/img/mini-hack.jpg, background: #000000"
         },
         "link": [
           {
             "rel": "self",
-            "type": "application\/atom+xml",
-            "href": "https:\/\/spreadsheets.google.com\/feeds\/list\/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg\/1\/public\/values\/cztg3"
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1koarJ3irUXvoDjS4BHSZzVMv3Nyf6p8u9RKSv2iI3gg/1/public/values/cztg3"
           }
         ],
         "gsx$year": {
@@ -783,10 +783,10 @@
           "$t": "Oxford University CodeSoc and AI Society Mini-Hack!"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/215423029025473\/\">Facebook event<\/a>. Our first mini-hack in collaboration with Oxford Coding Society and Oxford AI Games club! We've had over 120 signups in Oxford, and another 250 at universities worldwide, featuring competition from Harvard, MIT, Imperial, and Cambridge.\n\nDominos, Happy Cakes and G&D cafe have confirmed that they'll be bringing food and Bloomberg and TPP will be doing giveaways."
+          "$t": "<a href=\"https://www.facebook.com/events/215423029025473/\">Facebook event</a>. Our first mini-hack in collaboration with Oxford Coding Society and Oxford AI Games club! We've had over 120 signups in Oxford, and another 250 at universities worldwide, featuring competition from Harvard, MIT, Imperial, and Cambridge.\n\nDominos, Happy Cakes and G&D cafe have confirmed that they'll be bringing food and Bloomberg and TPP will be doing giveaways."
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/mini-hack.jpg"
+          "$t": "http://oxai.org/img/mini-hack.jpg"
         },
         "gsx$mediacredit": {
           "$t": ""
@@ -816,8 +816,8 @@
         },
         "category": [
           {
-            "scheme": "http:\/\/schemas.google.com\/spreadsheets\/2006",
-            "term": "http:\/\/schemas.google.com\/spreadsheets\/2006#list"
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
           }
         ],
         "title": {
@@ -837,10 +837,10 @@
           "$t": "OxAI talk: Ingmar Posner (Oxbotica)"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/1546387065415842\/\">Facebook event<\/a>. Our first mini-hack in collaboration with Oxford Coding Society and Oxford AI Games club! We've had over 120 signups in Oxford, and another 250 at universities worldwide, featuring competition from Harvard, MIT, Imperial, and Cambridge.\n\nDominos, Happy Cakes and G&D cafe have confirmed that they'll be bringing food and Prof. Posner is the head of the Applied AI Lab (A2I), serves as the Deputy Director of the Oxford Robotics Institute, and is a cofounder of the ORI spinoff Oxbotica. His work focuses on core challenges in AI and Machine Learning to enable robots to robustly and effectively operate in complex, real-world environments."
+          "$t": "<a href=\"https://www.facebook.com/events/1546387065415842/\">Facebook event</a>. Our first mini-hack in collaboration with Oxford Coding Society and Oxford AI Games club! We've had over 120 signups in Oxford, and another 250 at universities worldwide, featuring competition from Harvard, MIT, Imperial, and Cambridge.\n\nDominos, Happy Cakes and G&D cafe have confirmed that they'll be bringing food and Prof. Posner is the head of the Applied AI Lab (A2I), serves as the Deputy Director of the Oxford Robotics Institute, and is a cofounder of the ORI spinoff Oxbotica. His work focuses on core challenges in AI and Machine Learning to enable robots to robustly and effectively operate in complex, real-world environments."
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/logo_black.png"
+          "$t": "http://oxai.org/img/logo_black.png"
         },
         "gsx$background": {
           "$t": "#000000"
@@ -863,10 +863,10 @@
           "$t": "AI Strategy and Valuation: from Incumbents and new ventures"
         },
         "gsx$text": {
-          "$t": "<a href=\"https:\/\/www.facebook.com\/events\/141902769839075\/\">Facebook event<\/a>. We are cohosting a speaker event/panel discussion with FinTech and Tech OBNs on \"AI Strategy and Valuation - Insights from Incumbents and new ventures.\""
+          "$t": "<a href=\"https://www.facebook.com/events/141902769839075/\">Facebook event</a>. We are cohosting a speaker event/panel discussion with FinTech and Tech OBNs on \"AI Strategy and Valuation - Insights from Incumbents and new ventures.\""
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/mind-gears.jpg"
+          "$t": "http://oxai.org/img/mind-gears.jpg"
         },
         "gsx$background": {
           "$t": "#000000"
@@ -892,7 +892,7 @@
           "$t": "At our first study group this week, we will briefly introduce the PyTorch tutorial that will be covered this term and introduce some examples of machine learning applications, which may help you brainstorm and develop your own goals and projects.\n These will run every Saturday 2pm-4pm in the Mathematical Institute. <a href=\"https://www.facebook.com/groups/566762303704780/\">Join our Facebook group</a> to stay updated!"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/logo_black.png"
+          "$t": "http://oxai.org/img/logo_black.png"
         },
         "gsx$background": {
           "$t": "#000000"
@@ -918,7 +918,7 @@
           "$t": "STEM Champion is a conference that provides an educational, enjoyable and interactive experience. Students are divided into committees representing the various branches of STEM. They then explore a real-life case, to identify problems and contemplate their own solutions to these. We gave lead a session about Reinforcement Learning, which the students really enjoyed! Website: http://stemchampion.org/"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/stem_champion.jpg"
+          "$t": "http://oxai.org/img/stem_champion.jpg"
         },
         "gsx$background": {
           "$t": "#000000"
@@ -944,7 +944,7 @@
           "$t": "The Machine Learning Symposium is a one-day applied Artificial Intelligence event co-organised by Oxford Strategy Group Digital and Oxford Artificial Intelligence Society. This application-focused Machine Learning event will feature presentations from researching scientists in applied Machine Learning, followed by a short workshop on Machine Learning with Gaussian Process. <a href=\"https://www.facebook.com/events/165674240817695/permalink/168980177153768/\">Event page</a>"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/osg_oxai_symposium.jpg"
+          "$t": "http://oxai.org/img/osg_oxai_symposium.jpg"
         },
         "gsx$background": {
           "$t": "#000000"
@@ -970,7 +970,7 @@
           "$t": "Join Oxford’s Emerging Tech Societies and Oxford Foundry for a fun party where you will be able to meet people with similar interests while learning more about the different societies! This event will enable you to connect with the main societies working on emerging technologies at Oxford!</br>There will be frosty beverages, nibbles, fun activities and several prize draw worth a total £230! </br><a href=\"https://www.facebook.com/events/192950614847618/\">Event page</a>"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/emerging_tech_party.jpg"
+          "$t": "http://oxai.org/img/emerging_tech_party.jpg"
         },
         "gsx$background": {
           "$t": "#000000"
@@ -996,7 +996,371 @@
           "$t": "Join Oxford's AI Society for a presentation from Google's Optical Character Recognition team in Research and Machine Intelligence!</br> These renowned scientists will describe Google's efforts on optical character recognition (OCR), starting with a broad view of the problem, describing the evolution of their approach, and where they see things going. They will focus on several aspects: the machine learning problem, software engineering, research culture, multilingual aspects, and the overarching importance of data. Some remaining challenges will be outlined. OCR is the electronic conversion of written text (on scanned document, photo, etc) into a machine-encoded text.</br><a href=\"https://www.facebook.com/events/219669622115267/\">Event page</a>"
         },
         "gsx$media": {
-          "$t": "http:\/\/oxai.org\/img\/google_ocr_oxai.png"
+          "$t": "http://oxai.org/img/google_ocr_oxai.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "879"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "10"
+        },
+        "gsx$day": {
+          "$t": "10"
+        },
+        "gsx$headline": {
+          "$t": "AI Commencement Cermony "
+        },
+        "gsx$text": {
+          "$t": "Google.AI and OxAI</br> 5:30 pm to 7 PM </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "880"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "10"
+        },
+        "gsx$day": {
+          "$t": "16"
+        },
+        "gsx$headline": {
+          "$t": "AI Safety "
+        },
+        "gsx$text": {
+          "$t": "Victoria Krakovna</br> 6 PM to 7:30 PM\n</br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "880"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "10"
+        },
+        "gsx$day": {
+          "$t": "20"
+        },
+        "gsx$headline": {
+          "$t": "OxAI Education: Session 1 </br> Course Introduction. Recognizing Cats and Dogs"
+        },
+        "gsx$text": {
+          "$t": "</br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "881"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "10"
+        },
+        "gsx$day": {
+          "$t": "23"
+        },
+        "gsx$headline": {
+          "$t": "AI and How We Adress Ethical Concerns"
+        },
+        "gsx$text": {
+          "$t": "Paula Boddington </br> 5:30 to 7 PM\n</br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "882"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "10"
+        },
+        "gsx$day": {
+          "$t": "27"
+        },
+        "gsx$headline": {
+          "$t": "OxAI Education: Session 2 </br> Improving your image classifier"
+        },
+        "gsx$text": {
+          "$t": " </br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "883"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "10"
+        },
+        "gsx$day": {
+          "$t": "30"
+        },
+        "gsx$headline": {
+          "$t": "Using AI to Improve Sports Performance"
+        },
+        "gsx$text": {
+          "$t": "Quantum Black - Daniel First </br> 5:30 to 7 PM</br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "884"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "11"
+        },
+        "gsx$day": {
+          "$t": "3"
+        },
+        "gsx$headline": {
+          "$t": "Edu Session: Session 3 </br> Understanding Convolutions"
+        },
+        "gsx$text": {
+          "$t": "</br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "885"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "11"
+        },
+        "gsx$day": {
+          "$t": "6"
+        },
+        "gsx$headline": {
+          "$t": "Oxford University Innovation AI Social Startup Day"
+        },
+        "gsx$text": {
+          "$t": "</br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "886"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "11"
+        },
+        "gsx$day": {
+          "$t": "10"
+        },
+        "gsx$headline": {
+          "$t": "Edu Session: Session 4 </br> Structured, Time Series & Language Models"
+        },
+        "gsx$text": {
+          "$t": "</br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "887"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "11"
+        },
+        "gsx$day": {
+          "$t": "14"
+        },
+        "gsx$headline": {
+          "$t": "The AI Revolution and International Politics"
+        },
+        "gsx$text": {
+          "$t": "Allan Dafoe</br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "888"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "11"
+        },
+        "gsx$day": {
+          "$t": "17"
+        },
+        "gsx$headline": {
+          "$t": "Edu Session: Session 5 </br> Collaborative Filtering, Inside the\nTraining Loop"
+        },
+        "gsx$text": {
+          "$t": "</br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "889"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "11"
+        },
+        "gsx$day": {
+          "$t": "19"
+        },
+        "gsx$headline": {
+          "$t": "Divide and Conquer: The fundamental role of conditional independence"
+        },
+        "gsx$text": {
+          "$t": "Philip Dawid</br> 5:30 to 7 PM</br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "890"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "11"
+        },
+        "gsx$day": {
+          "$t": "24"
+        },
+        "gsx$headline": {
+          "$t": "Edu Session: Session 6 </br> Interpreting Embeddings, RNNs from Scratch"
+        },
+        "gsx$text": {
+          "$t": "</br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
+      },
+      {
+        "id": {
+          "$t": "891"
+        },
+        "gsx$year": {
+          "$t": "2018"
+        },
+        "gsx$month": {
+          "$t": "12"
+        },
+        "gsx$day": {
+          "$t": "1"
+        },
+        "gsx$headline": {
+          "$t": "Edu Session: Session 7 </br> Resnets from Scratch"
+        },
+        "gsx$text": {
+          "$t": "</br> </br> <a href=\"\">Event page</a>"
+        },
+        "gsx$media": {
+          "$t": "/img/logo_black.png"
         },
         "gsx$background": {
           "$t": "#000000"
