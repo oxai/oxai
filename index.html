@@ -98,13 +98,13 @@
 
             </div>
             <div id="intro-doc-button" class="row">
-                    <div class="col-lg-4">
+                    <div class="welcome-buttons-divs col-lg-4">
                             <a href="/mt18-termcard.pdf"><button type="button" class="btn btn-primary">Termcard</button></a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="welcome-buttons-divs col-lg-4">
                             <a href="#join"><button type="button" class="btn btn-primary">Join Us</button></a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="welcome-buttons-divs col-lg-4">
                         <a href="docs/OxAI Sponsorship Intro v9.pdf"><button type="button" class="btn btn-primary">Who we are</button></a>
                     </div>
             </div>
@@ -153,6 +153,9 @@
         </div>
     </div>
 </section>
+
+<!-- Noscript content for added SEO -->
+    <!-- You can customize this button any way you like -->
 
 
     <!-- Events Section -->
@@ -326,6 +329,8 @@
 
     <!-- <div id='timeline-embed' style="width: 100%; height: 600px"></div> -->
 
+    <script src=“https://www.eventbrite.com/static/widgets/eb_widgets.js”></script>    
+
     <!-- 3 -->
     <script type="text/javascript">
       // The TL.Timeline constructor takes at least two arguments:
@@ -366,17 +371,104 @@
             dragging:true,
             timenav_height: 100,
         }
-        $("#events-timeline").css("height", "600px")
+        $("#events-timeline").css("height", "650px")
 
     }
 
     // var eventsJson;
     $(document).ready(function(){
-      console.log("hi");
-      $.getJSON("js/events.json", function(data) {
-        console.log(data);
-        window.timeline = new TL.Timeline('events-timeline', googleFeedJSONtoTimelineJSON(data), additionalOptions);
-      });
+    //   console.log("hi");
+    //   $.getJSON("js/events.json", function(data) {
+    //     console.log(data);
+    //     window.timeline = new TL.Timeline('events-timeline', googleFeedJSONtoTimelineJSON(data), additionalOptions);
+    //   });
+
+    //   var exampleCallback = function() {
+    //         console.log('Order complete!');
+    //     };
+
+    //     window.EBWidgets.createWidget({
+    //         widgetType: 'checkout',
+    //         eventId: '50807309029',
+    //         modal: true,
+    //         modalTriggerElementId: 'eventbrite-widget-modal-trigger-50807309029',
+    //         onOrderComplete: exampleCallback
+    //     });
+
+        fetch("http://www.eventbriteapi.com/v3/users/me/owned_events/?token=3G3SR4TIW6VDWX32KEFW").then((response)=>{
+            if (response.status !== 200) {
+                console.log('Looks like there was a problem. Status Code: ' +
+                response.status);
+                return;
+            }
+
+            // Examine the text in the response
+            response.json().then(function(data) {
+                console.log("eventbrite response", data);
+                let events = data.events.slice(2).map((e,i)=>({
+                    "id":(1000+i).toString(),
+                    "year": e.start.local.split("-")[0],
+                    "month": e.start.local.split("-")[1],
+                    "day": e.start.local.split("-")[2].split("T")[0],
+                    "end_year": e.end.local.split("-")[0],
+                    "end_month": e.end.local.split("-")[1],
+                    "end_day": e.end.local.split("-")[2].split("T")[0],
+                    "start_time": e.start.local ? e.start.local.split("-")[2].split("T")[1].split(":")[0] + ":" + e.start.local.split("-")[2].split("T")[1].split(":")[1] : "",
+                    "end_time": e.end.local ? e.end.local.split("-")[2].split("T")[1].split(":")[0] + ":" + e.end.local.split("-")[2].split("T")[1].split(":")[1] : "",
+                    "title": e.name.html,
+                    "description": e.description.html,
+                    "media": e.logo ? e.logo.original.url : "",
+                    "url":e.url
+                })).map(e=>({
+                    "id": {
+                        "$t": e.id
+                    },
+                    "gsx$year": {
+                        "$t": e.year
+                    },
+                    "gsx$month": {
+                        "$t": e.month
+                    },
+                    "gsx$day": {
+                        "$t": e.day
+                    },
+                    "gsx$time": {
+                        "$t": e.start_time
+                    },
+                    // "gsx$endyear": {
+                    //     "$t": e.end_year
+                    // },
+                    // "gsx$endmonth": {
+                    //     "$t": e.end_month
+                    // },
+                    // "gsx$endday": {
+                    //     "$t": e.end_day
+                    // },
+                    // "gsx$endtime": {
+                    //   "$t": e.end_time
+                    // },
+                    "gsx$headline": {
+                        "$t": e.title
+                    },
+                    "gsx$text": {
+                        "$t": "</br>"+e.start_time+" to "+e.end_time+"</br>"+e.description + "</br><a href='"+e.url+"' rel='noopener noreferrer' target='_blank'>Event page</a></br></br> <a href='"+e.url+"' rel='noopener noreferrer' target='_blank'><button id='eventbrite-widget-modal-trigger-50807309029' class='btn btn-primary' type='button'>Get Tickets</button></a>"
+                    },
+                    "gsx$media": {
+                        "$t": e.media
+                    },
+                    "gsx$background": {
+                        "$t": "#000000"
+                    }
+                }))
+                console.log("HIII",events)
+                $.getJSON("js/events.json", function(data) {
+                    console.log(data);
+                    data.feed.entry = data.feed.entry.concat(events);
+                    console.log(data)
+                    window.timeline = new TL.Timeline('events-timeline', googleFeedJSONtoTimelineJSON(data), additionalOptions);
+                });
+            });
+        })
     //   let ifrm = document.getElementById("events-iframe");
     //   var bt = ifrm.contentDocument.createElement("base");
     //     bt.setAttribute("href","");
@@ -398,6 +490,7 @@
 
     //Note, because I'm using the GoogleSheet JSON, I am using the function form timelineJS, so I exposed it by doing window.googleFeedJSONtoTimelineJSON = googleFeedJSONtoTimelineJSON;
     </script>
+
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>

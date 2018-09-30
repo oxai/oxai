@@ -248,6 +248,10 @@ h2.tl-headline {
 		margin-bottom: 150px;
 	}
 
+	.welcome-buttons-divs {
+		margin-bottom: 30px;
+	}
+
 }
 
 @media only screen and (max-width : 1350px) {
