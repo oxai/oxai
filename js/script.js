@@ -8,8 +8,17 @@
     addListeners();
 
     function initHeader() {
-        width = window.innerWidth*0.97;
-        height = window.innerHeight*0.97;
+        if(isBlog){
+            width = window.innerWidth;
+            var body = document.body, html = document.documentElement;
+            height = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+        }else{
+            width = window.innerWidth*0.97;
+            height = window.innerHeight*0.97;    
+        }
+        //width = window.innerWidth*0.97;
+        //height = window.innerHeight*0.97;
         target = {x: width/2, y: height/2};
 
         largeHeader = document.getElementById('large-header');
@@ -97,11 +106,11 @@
     }
 
     function resize() {
-        width = window.innerWidth;
-        height = window.innerHeight;
-        largeHeader.style.height = height+'px';
-        canvas.width = width;
-        canvas.height = height;
+        initHeader();
+        initAnimation();
+        //largeHeader.style.height = height+'px';
+        //canvas.width = width;
+        //canvas.height = height;
     }
 
     // animation
