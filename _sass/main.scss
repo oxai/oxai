@@ -1,0 +1,17 @@
+$width-difference: calc(50vw - 50%);
+// @if $width-difference > 0px {
+// 	$width-difference2: 57.5px;
+// } @else {
+// 	$width-difference2: 0px;
+// }
+
+@media only screen and (min-width : 768px) {
+
+	nav > .container {
+		padding-left: calc(15px + (50vw - 50%));
+		padding-right: calc(15px - (50vw - 50%));
+	} 
+}
+// .navbar-right {
+// 	margin-right: calc(50% - 50vw) !important;
+// }

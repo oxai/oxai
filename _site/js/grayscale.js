@@ -5,17 +5,17 @@
  */
 
 // jQuery to collapse the navbar on scroll
-function collapseNavbar() {
-    // if ($(".navbar").offset().top > 50) {
-    //     $(".navbar-fixed-top").addClass("top-nav-collapse");
-    // } else {
-    //     $(".navbar-fixed-top").removeClass("top-nav-collapse");
-    // }
-    //FOR NOW NEVER COLLAPSE. BUT MAYBE TRY TO COLLAPSE ON HOME PAGE ONLY!
-    $(".navbar-fixed-top").addClass("top-nav-collapse");
+// function collapseNavbar() {
+//     // if ($(".navbar").offset().top > 50) {
+//     //     $(".navbar-fixed-top").addClass("top-nav-collapse");
+//     // } else {
+//     //     $(".navbar-fixed-top").removeClass("top-nav-collapse");
+//     // }
+//     //FOR NOW NEVER COLLAPSE. BUT MAYBE TRY TO COLLAPSE ON HOME PAGE ONLY!
+//     // $(".navbar-fixed-top").addClass("top-nav-collapse");
     
     
-}
+// }
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);

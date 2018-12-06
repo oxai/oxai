@@ -1,0 +1,66 @@
+---
+layout: default 
+---
+    
+<style>
+    .blog{
+        width: 84%;
+        margin: 0 auto;
+    }
+    .blog .title{
+        font-size: 24px;
+        margin-top: 18px;
+        margin-bottom: 8px;
+    }
+    .blog .content p{
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .blog .content .author{
+        text-align: right;
+    }
+    #logo{
+        margin-top: 35px;
+    }
+    @media only screen and (max-width : 768px) {
+        .blog{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .blog .title{
+            font-size: 1.2em;
+            margin-bottom: 28px;
+        }
+        .blog .content p{
+            font-size: 1em;
+        }
+    }
+</style>
+
+    <!--Welcome section-->
+    <div id="large-header" class="large-header container">
+      <canvas id="demo-canvas"></canvas>
+      <div class="row welcome">
+        <div class="welcome2">
+          <img id="logo" src="/img/logo.png"/>
+            <div class="blog">
+                <h3 class="title">
+                    {{ page.title }} - {{ page.date | date_to_string }}
+                </h3>
+                <div class="content">
+
+                    {{ content }}
+
+                    <p class="author">Written by
+                    <br><i>{{ page.author }}</i>
+                    <br><i>{{ page.email }}</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    var isBlog = true; //For width/height changes to TweenLite
+</script>
