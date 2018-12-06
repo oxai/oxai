@@ -15,8 +15,12 @@ body {
 
 } */
 
-.project-content, .content-list {
+.project-content, .content-list, .posts-list {
 	text-align: left;	
+}
+
+.posts-list h3.post-title {
+	color: #42DCA4;
 }
 
 .post.list-group-item {
