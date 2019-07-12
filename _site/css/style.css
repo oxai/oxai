@@ -115,7 +115,7 @@ body {
   
   .welcome2 { /*for centering welcome div*/
 	  width: 50%;
-	  margin: auto;
+	  margin: 10px auto;
   }
   
   .description {
