@@ -1001,6 +1001,32 @@
         "gsx$background": {
           "$t": "#000000"
         }
+      },
+      {
+        "id": {
+          "$t": "879"
+        },
+        "gsx$year": {
+          "$t": "2019"
+        },
+        "gsx$month": {
+          "$t": "5"
+        },
+        "gsx$day": {
+          "$t": "8"
+        },
+        "gsx$headline": {
+          "$t": "AI Tech Talent Networking Event"
+        },
+        "gsx$text": {
+          "$t": "<p>Come and meet exciting companies and rising start-ups that are leading the innovation and development of AI in the UK and around the world! </p><p>Whether you are actively looking for an AI-related full-time job or internship, or whether you are interested in working in this rapidly growing field, our networking event is for you! </p><p>This is an opportunity to gain insights into the industry, different AI products, and the research behind them. Talk to the founders and employees, find out what drives them and how they work. Learn about full-time jobs and internship positions, and exchange contact details to keep in touch. </p><p>In a relaxed atmosphere, the evening offers company presentations (2-minute power pitches) and networking sessions, all accompanied by drinks and canapes. </p><a href=\"https://www.facebook.com/events/219669622115267/\">Event page</a></br></br><a href='https://www.eventbrite.co.uk/e/ai-tech-talent-networking-tickets-60059590853' rel='noopener noreferrer' target='_blank'><button id='eventbrite-widget-modal-trigger-50807309029' class='btn btn-primary' type='button'>Get Tickets</button></a>"
+        },
+        "gsx$media": {
+          "$t": "http://oxai.org/img/ai_tech_talent_networking.jpg"
+        },
+        "gsx$background": {
+          "$t": "#000000"
+        }
       }
     ]
   }
