@@ -1,37 +1,26 @@
 ---
-layout: default
+layout: page
 title: Blog
+header: Blog
 ---
 
-<section class="text-center">
-    <div class="download-section">
-        <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <h2>Latest Posts</h2>
-              </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="rowr">
-              <div class="col-lg-10 col-lg-offset-1">
-                <ul class="list-group list-group-flush posts-list">
-                    {% for post in site.posts %}
-                        <a href="{{ post.url }}">
-                        <!-- <li class="list-group-item" style="background-color:black;"> -->
-                            <!-- <a href="{{ post.url }}" class="list-group-item list-group-item-action flex-column align-items-start active"> -->
-                            <div class="post list-group-item list-group-item-action flex-column align-items-start active">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h3 class="mb-1 post-title">{{ post.title }}</h3>
-                            </div>
-                            <p class="mb-1">{{ post.excerpt }}</p>
-                            </div>
-                        <!-- </li> -->
-                        </a>
-                    {% endfor %}
-                  </ul>
-              </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+<div class="row">
+  <div class="col-lg-10 col-lg-offset-1">
+    <ul class="list-group list-group-flush posts-list">
+        {% for post in site.posts %}
+            <a href="{{ post.url }}">
+            <!-- <li class="list-group-item" style="background-color:black;"> -->
+                <!-- <a href="{{ post.url }}" class="list-group-item list-group-item-action flex-column align-items-start active"> -->
+                <div class="post list-group-item list-group-item-action flex-column align-items-start active">
+                <div class="d-flex w-100 justify-content-between">
+                    <h3 class="mb-1 post-title">{{ post.title }}</h3>
+                </div>
+                <p class="mb-1">{{ post.excerpt }}</p>
+                </div>
+            <!-- </li> -->
+            </a>
+        {% endfor %}
+      </ul>
+  </div>
+</div>

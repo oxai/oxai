@@ -1,0 +1,13 @@
+- name: Hailey
+  picture: /img/people/hailey.jpg
+  role: President
+  email: blah
+  twitter: blah
+  github: blah
+
+- name: Kai
+  picture: /img/people/anonymous.png
+  role: Events Officer
+  email: blah
+  twitter: blah
+  linkedin: blah

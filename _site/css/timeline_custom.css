@@ -1,0 +1,82 @@
+/*  */
+
+/*EVENTS TIMELINE*/
+
+#events {
+	/* height: 100%; */
+	/*height: 100%;*/
+	/* min-height: 650px; */
+	margin-top: 100px;
+}
+
+#events-timeline {
+	width: 100%;
+	background: black;
+}
+
+.tl-timeaxis-tick {
+	font-size: 13px;
+}
+
+.tl-timemarker-content-container, .tl-headline-fadeout {
+	/* height: 40px !important; */
+	box-shadow: none !important;
+	background: black !important;
+	/* border: 1px solid #15B2A4 !important; #42DCA4 */
+	border: 1px solid #42DCA4 !important;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"], .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-] {
+	color: #bfbfbf !important;
+}
+
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"], .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-] {
+	color: #333 !important;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left, .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right {
+	border-left: 1px solid #d9d9d9 !important;
+}
+
+.tl-timemarker .tl-timemarker-line-left, .tl-timemarker .tl-timemarker-line-right {
+	border-color: rgba(51,51,51,.5) !important;
+}
+
+.tl-timeaxis {
+	background-color: black;
+}
+
+.tl-timeaxis-content-container, .tl-timenav-slider, .tl-timenav, .tl-timenav-slider-background, .sponsors-container, .partners-container, .welcome {
+	/* width: 100% !important; */
+}
+
+/* .tl-slide-scrollable-container {
+	height:600px;
+} */
+
+body{
+    overflow-x:hidden;
+}
+
+.tl-timenav {
+	/* margin: auto; */
+	background: black;
+	/* border-top: 1px solid #e5e5e5; */
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.tl-menubar-button {
+	background-color: black;
+}
+
+h2.tl-headline {
+	color:#42DCA4 !important;
+}
+
+.tl-timeline a {
+	color: white !important;
+}
+
+.tl-attribution {
+	background-color: black !important;
+}

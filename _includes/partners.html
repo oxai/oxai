@@ -1,0 +1,24 @@
+<!-- Contact Section -->
+<section id="partners" class="partners-section bg-black text-center">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">Partners</h2>
+        <!-- <p class="text-white-50"></p> -->
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid">
+            <div class="row content">
+            {% for partner in site.data.partners %}
+              <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                  <div>
+                  <a href={{partner.url}} target="_blank"><img src={{partner.img}} alt={{partner.name}} /></a>
+                  </div>
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
