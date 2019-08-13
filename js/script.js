@@ -1,3 +1,70 @@
+
+$(document).ready(function() {
+
+    var tooltip = $('<div/>').qtip({
+      id: 'fullcalendar',
+      prerender: true,
+      content: {
+        text: ' ',
+        title: {
+          button: true
+        }
+      },
+      position: {
+        my: 'bottom center',
+        at: 'top center',
+        target: 'event',
+        viewport: $('#fullcalendar'),
+        adjust: {
+          mouse: false,
+          scroll: false
+        }
+      },
+      show: false,
+      hide: false,
+      style: 'qtip-bootstrap'
+    }).qtip('api');
+
+    $('#calendar').fullCalendar({
+
+      googleCalendarApiKey: "AIzaSyClnQp8hjs6HEu-PKP0Sa71NbJn_qb2L-8",
+      events: {
+            googleCalendarId: 'oxford3dprinting@gmail.com'
+        },
+      eventClick: function( data, event, view ) {
+        event.preventDefault();
+        window.open(data.url, '_blank');
+        console.log(data);
+      },
+      eventMouseover: function(data,event,view) {
+        var content
+        if (data.allDay) {
+          content = (data.location && '<p><b>Location: </b> '+data.location+'</p>');
+        } else {
+          content = '<p><b>Start:</b> '+data.start.format("MMMM Do YYYY, h:mm a")+'<br />' +
+   				(data.end && '<p><b>End:</b> '+data.end.format("MMMM Do YYYY, h:mm a")+'</p>' || '')
+           +(data.location && '<p><b>Location: </b> '+data.location+'</p>' || '');
+        }
+
+          // + '<p><a href="'+data.url+'">Google calendar</a></p>';
+
+  			tooltip.set({
+          'content.title': data.title,
+  				'content.text': content
+  			})
+        .show(event);
+  			// .reposition(event).show(event);
+  		},
+      eventMouseout: function(data,event,view) { tooltip.elements.tooltip.hide(0) },
+      // dayClick: function() { tooltip.hide() },
+  		// eventResizeStart: function() { tooltip.hide() },
+  		// eventDragStart: function() { tooltip.hide() },
+  		// viewDisplay: function() { tooltip.hide() },
+    });
+
+});
+
+
 (function() {
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
@@ -11,11 +78,11 @@
         if(isBlog){
             width = window.innerWidth;
             var body = document.body, html = document.documentElement;
-            height = Math.max( body.scrollHeight, body.offsetHeight, 
+            height = Math.max( body.scrollHeight, body.offsetHeight,
                        html.clientHeight, html.scrollHeight, html.offsetHeight );
         }else{
             width = window.innerWidth*0.97;
-            height = window.innerHeight*0.97;    
+            height = window.innerHeight*0.97;
         }
         //width = window.innerWidth*0.97;
         //height = window.innerHeight*0.97;
