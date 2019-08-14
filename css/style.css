@@ -252,6 +252,13 @@ body {
 
 }
 
+/* Events */
+
+.fc-day-grid-container.fc-scroller {
+	height: 100% !important;
+	overflow-y: auto !important;
+}
+
 /* form */
 
 /* .freebirdFormviewerViewFormCard {
