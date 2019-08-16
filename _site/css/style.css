@@ -8,7 +8,7 @@ body {
 
 /* nav > .container {
 	padding-left: calc(50vw - 50%);
-} 
+}
 
 .navbar-right {
 	padding-right: calc(50vw - 50%) !important;
@@ -16,7 +16,7 @@ body {
 } */
 
 .project-content, .content-list, .posts-list {
-	text-align: left;	
+	text-align: left;
 }
 
 .posts-list h3.post-title {
@@ -112,12 +112,12 @@ body {
 	  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	  background-color: rgba(0,0,0,0);
   }
-  
+
   .welcome2 { /*for centering welcome div*/
 	  width: 50%;
 	  margin: 10px auto;
   }
-  
+
   .description {
 	  /* margin-bottom: -15px; */
 	  margin-top: 5%;
@@ -125,7 +125,7 @@ body {
 	  /*text-align: justify;
 	text-justify: inter-word;*/
   }
-  
+
   #logo {
 	  width:35vw;
   }
@@ -141,7 +141,7 @@ body {
 
 .content {
 	/* text-align:center; */
-	display: inline-block;	
+	display: inline-block;
 }
 
 .content div{
@@ -192,7 +192,7 @@ body {
 	box-shadow: none !important;
 	background: black !important;
 	/* border: 1px solid #15B2A4 !important; #42DCA4 */
-	border: 1px solid #42DCA4 !important; 
+	border: 1px solid #42DCA4 !important;
 }
 
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"], .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-] {
@@ -261,6 +261,17 @@ h2.tl-headline {
     width: 150px;
     height: 150px;
 		margin: 10px auto;
+		object-fit: cover;
+}
+
+.committee-member {
+	width: 50%;
+	margin: auto;
+}
+
+.centered{
+    float: none;
+    margin: 0 auto;
 }
 
 .committee-section h4 > small{
@@ -282,7 +293,7 @@ h2.tl-headline {
 		width:70vw;
 	}
 	.content div {
-		max-width: 100%;		
+		max-width: 100%;
 		margin:10px;
 	}
 
@@ -408,7 +419,7 @@ h2.tl-headline {
 	color: black;
 }
 .cust-btn:hover{
-	
+
 	border-color: rgb(0, 255, 162);;
 	background-color: black;
 	color: rgb(0, 255, 162);;
