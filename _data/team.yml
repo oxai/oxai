@@ -10,6 +10,7 @@
 
 - name: Sanaa Asim
   role: Social Rep
+  email: sanaa.asim@oxai.org
 
 - name: Kai Zhi Teh
   role: Events Officer
@@ -55,7 +56,7 @@
   email: timothy.seabrook@oxai.org
 
 - name: Ding Shin Huang
-  img: /img/people/ding.jpg
+  picture: /img/people/ding.jpg
   role: Labs Resources Manager
   email: ding.shin.huang@oxai.org
 
@@ -72,7 +73,7 @@
   email: franziska.poprawe@oxai.org
 
 - name: Natalia Efremova
-  img: /img/people/natali.jpg
+  picture: /img/people/natalia.jpg
   role: Senior Collaborator
   email: natalia.efremova2@sbs.ox.ac.uk
   twitter: https://twitter.com/burantiar
@@ -81,7 +82,7 @@
 - name: Mengxi Wang
   role: Labs Collaborator
   email: mengxi.wang@oxai.org
-  img: /img/people/mengxi.jpg
+  picture: /img/people/mengxi.jpg
 
 - name: Rayne Sullivan
   role: Sponsorship Collaborator
@@ -93,5 +94,5 @@
 
 - name: Huw Roberts
   role: VP of Public Relations
-  img: /img/people/huw.jpg
+  picture: /img/people/huw.jpg
   email: huw.roberts@oxai.org
