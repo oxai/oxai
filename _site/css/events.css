@@ -36,7 +36,7 @@ width: 20%;
 		padding: 0px;
 		margin: 0px 0px 20px;
 	}
-	.event-list > li > time {
+	.event-list > li time {
 		display: inline-block;
 		width: 100%;
 		color: #42DCA4;
@@ -50,10 +50,10 @@ width: 20%;
 		background-color: #161616;
     color:#42DCA4;
 	} */
-	.event-list > li > time > span {
+	.event-list > li time > span {
 		display: none;
 	}
-	.event-list > li > time > .day {
+	.event-list > li time > .day {
     margin-top: 8%;
 		display: block;
 		font-size: 56pt;
@@ -66,25 +66,25 @@ width: 20%;
 		font-weight: 900;
 		line-height: 1;
 	}
-	.event-list > li > img {
+	.event-list > li img {
 		width: 100%;
 	}
-	.event-list > li > .info {
+	.event-list > li .info {
 		padding-top: 5px;
 		text-align: center;
 	}
-	.event-list > li > .info > .title {
+	.event-list > li .info > .title {
 		font-size: 17pt;
 		font-weight: 400;
 		margin: 0px;
 	}
-	.event-list > li > .info > .desc {
+	.event-list > li .info > .desc {
 		font-size: 13pt;
 		font-weight: 300;
 		margin: 0px;
 	}
-	.event-list > li > .info > ul,
-	.event-list > li > .social > ul {
+	.event-list > li .info > ul,
+	.event-list > li .social > ul {
 		display: table;
 		list-style: none;
 		margin: 10px 0px 0px;
@@ -92,11 +92,11 @@ width: 20%;
 		width: 100%;
 		text-align: center;
 	}
-	.event-list > li > .social > ul {
+	.event-list > li .social > ul {
 		margin: 0px;
 	}
-	.event-list > li > .info > ul > li,
-	.event-list > li > .social > ul > li {
+	.event-list > li .info > ul > li,
+	.event-list > li .social > ul > li {
 		display: table-cell;
 		cursor: pointer;
 		color: rgb(30, 30, 30);
@@ -104,20 +104,20 @@ width: 20%;
 		font-weight: 300;
         padding: 3px 0px;
 	}
-    .event-list > li > .info > ul > li > a {
+    .event-list > li .info > ul > li > a {
 		display: block;
 		width: 100%;
 		color: rgb(30, 30, 30);
 		text-decoration: none;
 	}
-    .event-list > li > .social > ul > li {
+    .event-list > li .social > ul > li {
         padding: 0px;
     }
-    .event-list > li > .social > ul > li > a {
+    .event-list > li .social > ul > li > a {
         padding: 3px 0px;
 	}
-	.event-list > li > .info > ul > li:hover,
-	.event-list > li > .social > ul > li:hover {
+	.event-list > li .info > ul > li:hover,
+	.event-list > li .social > ul > li:hover {
 		color: rgb(30, 30, 30);
 		background-color: rgb(200, 200, 200);
 	}
@@ -155,61 +155,61 @@ width: 20%;
 			height: 120px;
 			padding: 0px;
 		}
-		.event-list > li > time,
-		.event-list > li > img  {
+		.event-list > li time,
+		.event-list > li img  {
 			display: inline-block;
 		}
-		.event-list > li > time,
-		.event-list > li > img {
+		.event-list > li time,
+		.event-list > li img {
 			width: 120px;
 			float: left;
 		}
-		.event-list > li > .info {
+		.event-list > li .info {
 			background-color: #161616;
 			overflow: hidden;
 		}
-    .event-list > li > time {
+    .event-list > li time {
       width: 120px;
       height: 120px;
       padding: 0px;
       margin: 0px;
     }
-		.event-list > li > img {
+		.event-list > li img {
 			width: 235px;
 			height: 120px;
 			padding: 0px;
 			margin: 0px;
 		}
-		.event-list > li > .info {
+		.event-list > li .info {
 			position: relative;
 			height: 120px;
 			text-align: left;
 			padding-right: 40px;
 		}
-		.event-list > li > .info > .title,
-		.event-list > li > .info > .desc {
+		.event-list > li .info > .title,
+		.event-list > li .info > .desc {
 			padding: 0px 10px;
 		}
-		.event-list > li > .info > ul {
+		.event-list > li .info > ul {
 			position: absolute;
 			left: 0px;
 			bottom: 0px;
 		}
-		.event-list > li > .social {
+		.event-list > li .social {
 			position: absolute;
 			top: 0px;
 			right: 0px;
 			display: block;
 			width: 40px;
 		}
-        .event-list > li > .social > ul {
+        .event-list > li .social > ul {
             border-left: 1px solid rgb(230, 230, 230);
         }
-		.event-list > li > .social > ul > li {
+		.event-list > li .social > ul > li {
 			display: block;
             padding: 0px;
 		}
-		.event-list > li > .social > ul > li > a {
+		.event-list > li .social > ul > li > a {
 			display: block;
 			width: 40px;
 			padding: 10px 0px 9px;

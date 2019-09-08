@@ -81,7 +81,8 @@ body {
 }
 
 .about-section {
-	min-height:75vh;
+	/* min-height:75vh; */
+	min-height:50vh;
   padding-top: 3rem;
 	background: #14211a;
   /* background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8))); */
@@ -91,6 +92,8 @@ body {
 #demo-canvas { /*where network background animation lives*/
 	position: absolute;
 	pointer-events: none;
+	height: 99vh;
+	width: 99vw;
 }
 
   #logo {
@@ -263,6 +266,10 @@ body {
 .fc-day-grid-container.fc-scroller {
 	height: 100% !important;
 	overflow-y: auto !important;
+}
+
+.fc-toolbar > .fc-center > h2 {
+	font-size: 1.6em;
 }
 
 /* form */

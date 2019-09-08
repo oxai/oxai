@@ -71,6 +71,37 @@ title: Events
   <div class="row">
     <div class="col-12">
       <ul id="past-event-list" class="event-list">
+          {% for event in site.data.pastevents %}
+  					<li>
+  						<time datetime={{ event.datetime }}>
+  							<span class="day">{{ event.day }}</span>
+  							<span class="month">{{ event.month }}</span>
+  							<span class="year">{{ event.year }}</span>
+  							<span class="time">{{ event.time }}</span>
+  						</time>
+  						<img alt={{ event.title }} src={{ event.image }} />
+  						<div class="info">
+  							<h2 class="title">{{ event.title }}</h2>
+  							<p class="desc">{{ event.desc }}</p>
+              <!-- <ul>
+                <li style="width:33%;">$49.99 <span class="fa fa-male"></span></li>
+                <li style="width:34%;">$29.99 <span class="fa fa-child"></span></li>
+              </ul> -->
+              <!-- <ul>
+                <li style="width:33%;">1 <span class="glyphicon glyphicon-ok"></span></li>
+                <li style="width:34%;">3 <span class="fa fa-question"></span></li>
+                <li style="width:33%;">103 <span class="fa fa-envelope"></span></li>
+              </ul> -->
+  						<!-- <div class="social">
+  							<ul>
+  								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+  								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+  								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+  							</ul>
+  						</div> -->
+  						</div>
+  					</li>
+            {% endfor %}
 			</ul>
 
       </div>

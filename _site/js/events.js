@@ -76,7 +76,8 @@ document.addEventListener('DOMContentLoaded', function() {
               media:{url: e.media},
               start_date: {year: e.year, month: e.month, day: e.day, hour: e.hour, minute: e.minute},
               end_date: {year: e.end_year, month: e.end_month, day: e.end_day, hour: e.end_hour, minute: e.end_minute},
-              text: {headline: e.title, text: "</br>"+e.start_time+" to "+e.end_time+"</br>"+e.description + "</br><a href='"+e.url+"' rel='noopener noreferrer' target='_blank'>Event page</a></br></br> <a href='"+e.url+"' rel='noopener noreferrer' target='_blank'><button id='eventbrite-widget-modal-trigger-50807309029' class='btn btn-primary' type='button'>Get Tickets</button></a>"}
+              text: {headline: e.title, text: "</br>"+e.start_time+" to "+e.end_time+"</br>"+e.description + "</br><a href='"+e.url+"' rel='noopener noreferrer' target='_blank'>Event page</a></br></br> <a href='"+e.url+"' rel='noopener noreferrer' target='_blank'><button id='eventbrite-widget-modal-trigger-50807309029' class='btn btn-primary' type='button'>Get Tickets</button></a>"},
+              url: e.url
           }))
           // parsedEvents.forEach(e=>timeline.add(e));
 
@@ -101,7 +102,8 @@ document.addEventListener('DOMContentLoaded', function() {
           }
 
           console.log(parsedEvents);
-          let event_html_string = (datetime,day,month,year,time,title,image,desc) => `<li>
+          let event_html_string = (datetime,day,month,year,time,title,image,desc,url) => `<li>
+              <a href="`+url+`" target="_blank">
   						<time datetime=` + datetime +`>
   							<span class="day">`+ day +`</span>
   							<span class="month">` + month + `</span>
@@ -113,11 +115,12 @@ document.addEventListener('DOMContentLoaded', function() {
   							<h2 class="title">` + title +`</h2>
   							<p class="desc">` + desc +`</p>
               </div>
+              </a>
               </li>
                 `
 
-          let past_event_htmls = past_events.map(x=>event_html_string(x.start_date.year+"-"+x.start_date.month+"-"+x.start_date.day,x.start_date.day, x.start_date.month, x.start_date.year, x.start_date.hour+":"+x.start_date.minute, x.text.headline, x.media.url, ""))
-          let upcoming_event_htmls = next_events.map(x=>event_html_string(x.start_date.year+"-"+x.start_date.month+"-"+x.start_date.day,x.start_date.day, x.start_date.month, x.start_date.year, x.start_date.hour+":"+x.start_date.minute, x.text.headline, x.media.url, ""))
+          let past_event_htmls = past_events.map(x=>event_html_string(x.start_date.year+"-"+x.start_date.month+"-"+x.start_date.day,x.start_date.day, x.start_date.month, x.start_date.year, x.start_date.hour+":"+x.start_date.minute, x.text.headline, x.media.url, "",x.url))
+          let upcoming_event_htmls = next_events.map(x=>event_html_string(x.start_date.year+"-"+x.start_date.month+"-"+x.start_date.day,x.start_date.day, x.start_date.month, x.start_date.year, x.start_date.hour+":"+x.start_date.minute, x.text.headline, x.media.url, "",x.url))
           // console.log(all_event_htmls);
           // let event_html = new DOMParser().parseFromString(html_string, 'text/html')
           upcoming_event_htmls.forEach(html=>{
