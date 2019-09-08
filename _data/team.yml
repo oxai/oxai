@@ -1,14 +1,15 @@
-- name: Hailey
+- name: Hailey Trier
   picture: /img/people/hailey.jpg
   role: President
-  email: blah
-  twitter: blah
-  github: blah
+  email: hailey.trier@oxai.org
 
 - name: Ruben Drayton
-  picture: /img/people/anonymous.png
+  picture: /img/people/ruben.jpg
   role: VP of Partnerships
   email: ruben.drayton@oxai.org
+
+- name: Sanaa Asim
+  role: Social Rep
 
 - name: Kai Zhi Teh
   role: Events Officer
@@ -32,6 +33,10 @@
   role: Scrum Master
   email: yingtong.chen@oxai.org
 
+- name: Sagar Vaze
+  role:
+  email: sagar.vaze@oxai.org
+
 - name: Andrea Chatrian
   role: Treasurer
   email: andrea.chatrian@oxai.org
@@ -50,6 +55,7 @@
   email: timothy.seabrook@oxai.org
 
 - name: Ding Shin Huang
+  img: /img/people/ding.jpg
   role: Labs Resources Manager
   email: ding.shin.huang@oxai.org
 
@@ -65,13 +71,17 @@
   role: VP of Ethics
   email: franziska.poprawe@oxai.org
 
-- name: Natalia Efremov
+- name: Natalia Efremova
+  img: /img/people/natali.jpg
   role: Senior Collaborator
-  email:
+  email: natalia.efremova2@sbs.ox.ac.uk
+  twitter: https://twitter.com/burantiar
+  linkedin: https://www.linkedin.com/in/natalieef/
 
 - name: Mengxi Wang
   role: Labs Collaborator
-  email: mengxi.wang@psy.ox.ac.uk
+  email: mengxi.wang@oxai.org
+  img: /img/people/mengxi.jpg
 
 - name: Rayne Sullivan
   role: Sponsorship Collaborator
@@ -79,4 +89,9 @@
 
 - name: Ria Roque
   role: Sponsorship Collaborator
-  email: 
+  email:
+
+- name: Huw Roberts
+  role: VP of Public Relations
+  img: /img/people/huw.jpg
+  email: huw.roberts@oxai.org

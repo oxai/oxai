@@ -1,0 +1,47 @@
+<!-- Contact Section -->
+<section id="sponsors" class="sponsors-section bg-black text-center">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">Sponsors</h2>
+        <!-- <p class="text-white-50"></p> -->
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid welcome">
+            <div class="row my-5">
+                <div class="col-lg-2"><h3>Platinum</h3></div>
+                {% for sponsor in site.data.sponsors.platinum %}
+                  <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                      <div>
+                      <a href={{sponsor.url}} target="_blank"><img src={{sponsor.img}} alt={{sponsor.name}} /></a>
+                      </div>
+                  </div>
+                {% endfor %}
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-2"><h3>Gold</h3></div>
+                {% for sponsor in site.data.sponsors.gold %}
+                  <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                      <div>
+                      <a href={{sponsor.url}} target="_blank"><img src={{sponsor.img}} alt={{sponsor.name}} /></a>
+                      </div>
+                  </div>
+                {% endfor %}
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-2"><h3>Bronze</h3></div>
+                {% for sponsor in site.data.sponsors.bronze %}
+                  <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                      <div>
+                      <a href={{sponsor.url}} target="_blank"><img src={{sponsor.img}} alt={{sponsor.name}} /></a>
+                      </div>
+                  </div>
+                {% endfor %}
+            </div>
+            </div>
+        </div>
+    </div>
+</section>

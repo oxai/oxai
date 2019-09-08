@@ -13,25 +13,27 @@
 
     <title>OxAI - Oxford Artificial Intelligence Society</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="/css/grayscale.css" rel="stylesheet">
-    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-    <!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"> -->
-    <link href="/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
-    
-
-    <!-- Custom Fonts -->
-    <!-- <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Custom fonts for this template -->
     <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <!-- Custom styles for this template -->
+    <link href="/css/grayscale.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"> -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/events.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/jquery.qtip.min.css">
+    <!-- <link rel="stylesheet" href="/css/fullcalendar.min.css"> -->
+    <link href='/js/packages/core/main.css' rel='stylesheet' />
+    <link href='/js/packages/daygrid/main.css' rel='stylesheet' />
+    <link href='/js/packages/list/main.css' rel='stylesheet' />
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,155 +57,339 @@
     </script>
 
     <!-- Navigation (navigation bar on the top)-->
-<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
-        <div class="container">
-            <!--LOGO at the top-->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="/">
-                    <!-- <i class="fa fa-play-circle"></i> -->
-                    <img id="minilogo" src="/img/logo2.png"></img>
-                      <span class="light">&nbsp;OX</span>AI
-                </a>
-            </div>
 
-            <!--Links to the difference sections of the one-page webpage-->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <!-- <li>
-                            <a class="page-scroll" href="#about">About</a>
-                        </li> -->
-                        <li>
-                            <a class="page-scroll" href="/events">Events</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/join">Join</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/labs">Labs</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/blog">Blog</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/#sponsors">Sponsors</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/#partners">Partners</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/team">Team</a>
-                        </li>
-                    </ul>
-            </div>
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="/#page-top">
+      <img id="minilogo" src="/img/logo2.png"></img>
+        <span class="light">&nbsp;OX</span>AI
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/join">Join</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/labs">Labs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/#sponsors">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/#partners">Partners</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/team">Team</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    
+<!-- Header -->
+<header class="masthead">
+  <canvas id="demo-canvas"></canvas>
+  <div class="container d-flex h-100 align-items-center">
+    <div class="mx-auto text-center">
+      <h1 class="mx-auto my-0 text-uppercase"><img id="logo" src="img/logo.png"/></h1>
+      <h2 class="text-white-100 mx-auto mt-2 mb-5">Embedded in the University of Oxford, the society provides a platform to educate, build, connect, and employ an Artificial Intelligence community that constantly drives innovation for the University and the World.</h2>
+      <div class="w-75 mx-auto row">
+        <div class="my-2 col-lg-4">
+          <a href="/tt19-termcard.pdf" class="btn btn-primary js-scroll-trigger">Termcard</a>
         </div>
-    </nav>
-
-
-        <!--Welcome section-->
-    <div id="large-header" class="large-header container">
-      <canvas id="demo-canvas"></canvas>
-      <div class="row welcome">
-        <div class="welcome2">
-          <img id="logo" src="img/logo.png"/>
-
-            <div class="description">
-              <p>Embedded in the University of Oxford, the society provides a platform to educate, build, connect, and employ an Artificial Intelligence community that constantly drives innovation for the University and the World.<p/>
-
-            </div>
-            <div id="intro-doc-button" class="row">
-                    <div class="welcome-buttons-divs col-lg-4">
-                            <a href="/tt19-termcard.pdf"><button type="button" class="btn btn-primary">Termcard</button></a>
-                    </div>
-                    <div class="welcome-buttons-divs col-lg-4">
-                            <a href="/join"><button type="button" class="btn btn-primary">Join Us</button></a>
-                    </div>
-                    <div class="welcome-buttons-divs col-lg-4">
-                        <a href="docs/OxAI Sponsorship Intro v9.pdf"><button type="button" class="btn btn-primary">Who we are</button></a>
-                    </div>
-            </div>
+        <div class="my-2 col-lg-4">
+          <a href="/join" class="btn btn-primary js-scroll-trigger">Join Us</a>
         </div>
+        <div class="my-2 col-lg-4">
+          <a href="docs/OxAI Sponsorship Intro v9.pdf" class="btn btn-primary js-scroll-trigger">Who we are</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<!-- About Section -->
+<section id="about" class="about-section text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">What we do</h2>
+        <p class="text-white-50">Embedded in the University of Oxford, the society provides a platform to educate, build, connect, and employ an Artificial Intelligence community that constantly drives innovation for the University and the World.</p>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+          <a href="/community" target="_blank">
+            <h3>Community</h3>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <a href="/education" target="_blank">
+            <h3>Education</h3>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <a href="/labs" target="_blank">
+            <h3>Research</h3>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <a href="/careers" target="_blank">
+            <h3>Careers</h3>
+          </a>
         </div>
     </div>
+    <!-- <img src="img/oxford.png" class="img-fluid" alt=""> -->
+  </div>
+</section>
 
 
-        <!-- Partners and sponsors -->
-<section id="sponsors" class="text-center">
-    <div class="download-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                <h2>Sponsors</h2>
-                </div>
+<!-- Team Section -->
+
+
+<!-- Sponsors Section -->
+<!-- Contact Section -->
+<section id="sponsors" class="sponsors-section bg-black text-center">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">Sponsors</h2>
+        <!-- <p class="text-white-50"></p> -->
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid welcome">
+            <div class="row my-5">
+                <div class="col-lg-2"><h3>Platinum</h3></div>
+                
+                  <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                      <div>
+                      <a href=https://innovation.ox.ac.uk/ target="_blank"><img src=/img/sponsors/OUI.jpg alt=Oxford University Innovation /></a>
+                      </div>
+                  </div>
+                
             </div>
-        </div>
-        <div class="row sponsors-container">
-            <div class="container-fluid welcome">
-                <div class="row welcome2 content">
-                    <h3>Platinum</h3>
-                    <div class="col-lg-3"><a href="https://innovation.ox.ac.uk/" target="_blank"><img src="img/sponsors/OUI.jpg" alt="" /></a></div>
-                    </br>
-                    </br>
-                    <h3>Gold</h3>
-                    <div class="col-lg-3"><a href="https://www.quantumblack.com/" target="_blank"><img style="width:300px" src="img/sponsors/quantumblack.jpg" alt="" /></a></div>
-                    <div class="col-lg-3"><a href="https://www.twosigma.com/" target="_blank"><img src="img/sponsors/two-sigma-logo.jpg" alt="" /></a></div>
-                    <div class="col-lg-3"><a href="https://app.knowledgeofficer.com/" target="_blank"><img style="width:300px" src="img/sponsors/KO_Logo.png" alt="" /></a></div>
-                    <!-- <div class="col-lg-3"><a href="https://app.knowledgeofficer.com/" target="_blank"><img style="width:300px" src="img/sponsors/envelop.png" alt="" /></a></div> -->
-<!--                     <div class="col-lg-3"><a href="https://www.nvidia.com/" target="_blank"><img src="img/partners/nvidia.jpg" alt="" /></a></div>   -->
-                    </br>
-                    </br>
-                    <h3>Bronze</h3>
-<!--                     <div class="col-lg-3"><a href="https://www.gresearch.co.uk/" target="_blank"><img src="img/sponsors/G-Research_0.jpg" alt="" /></a></div> -->
-<!--                     <div class="col-lg-3"><a href="https://foundersfactory.com/" target="_blank"><img src="img/sponsors/founders_factory.jpg" alt="" /></a></div>   -->
-<!--                     <div class="col-lg-3"><a href="https://london.theaisummit.com/" target="_blank"><img src="img/sponsors/ai_summit_black.png" alt="" /></a></div>   -->
-                    <div class="col-lg-3"><a href="https://www.herbertsmithfreehills.com/" target="_blank"><img src="img/sponsors/hsf.png" alt="" /></a></div>
-                </div>
+            <div class="row my-5">
+                <div class="col-lg-2"><h3>Gold</h3></div>
+                
+                  <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                      <div>
+                      <a href=https://www.quantumblack.com/ target="_blank"><img src=/img/sponsors/quantumblack.jpg alt=QuantumBlack /></a>
+                      </div>
+                  </div>
+                
+                  <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                      <div>
+                      <a href=https://www.twosigma.com/ target="_blank"><img src=/img/sponsors/two-sigma-logo.jpg alt=TwoSigma /></a>
+                      </div>
+                  </div>
+                
+                  <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                      <div>
+                      <a href=https://app.knowledgeofficer.com/ target="_blank"><img src=/img/sponsors/KO_Logo.png alt=Knowledge Officer /></a>
+                      </div>
+                  </div>
+                
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-2"><h3>Bronze</h3></div>
+                
+                  <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                      <div>
+                      <a href=https://www.herbertsmithfreehills.com/ target="_blank"><img src=/img/sponsors/hsf.png alt=Herbertsmith Freehills /></a>
+                      </div>
+                  </div>
+                
+            </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="partners" class="text-center">
-    <div class="download-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Partners</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row partners-container">
-            <div class="container-fluid welcome">
-                <div class="row content welcome2">
-                    <div class="col-lg-3"><a href="https://www.maths.ox.ac.uk/" target="_blank"><img src="img/partners/maths_institute.jpg" alt="Maths Institute" /></a></div>
-                    <div class="col-lg-3"><a href="https://www.oxfordfoundry.ox.ac.uk/" target="_blank"><img src="img/partners/oxfo_new.png" alt="Oxford Foundry" /></a></div>
-                    <div class="col-lg-3"><a href="https://www.fhi.ox.ac.uk/" target="_blank"><img src="img/partners/fhi.png" alt="Future of Humanity Institute" /></a></div>
-                </div>
-                <div class="row content welcome2">
-                    <div class="col-lg-5"><a href="https://www.vcinnovations.co.uk/" target="_blank"><img style="width:300px" src="img/partners/vcinnovations.png" alt="VC Innovations" /></a></div>
-                </div>
-            </div>
+
+<!-- Partners Section -->
+<!-- Contact Section -->
+<section id="partners" class="partners-section bg-black text-center">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">Partners</h2>
+        <!-- <p class="text-white-50"></p> -->
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid">
+            <div class="row content">
+            
+              <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                  <div>
+                  <a href=https://www.maths.ox.ac.uk/ target="_blank"><img src=/img/partners/maths_institute.jpg alt=Maths Institute /></a>
+                  </div>
+              </div>
+            
+              <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                  <div>
+                  <a href=https://www.oxfordfoundry.ox.ac.uk/ target="_blank"><img src=/img/partners/oxfo_new.png alt=Oxford Foundry /></a>
+                  </div>
+              </div>
+            
+              <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                  <div>
+                  <a href=https://www.fhi.ox.ac.uk/ target="_blank"><img src=/img/partners/fhi.png alt=Future of Humanity Institute /></a>
+                  </div>
+              </div>
+            
+              <div class="col-lg-3 d-flex align-items-center d-flex justify-content-center">
+                  <div>
+                  <a href=https://www.vcinnovations.co.uk/ target="_blank"><img src=/img/partners/vcinnovations.png alt=VC Innovations /></a>
+                  </div>
+              </div>
+            
         </div>
     </div>
 </section>
+
+
+  <!-- Signup Section -->
+  <!-- <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+<section class="contact-section bg-black">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-3 mb-3 mb-md-0">
+        <a href="/join" target="_blank">
+          <div class="card py-4 h-100px">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope fa-5x text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Join us</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3 mb-3 mb-md-0">
+        <a href="https://join.slack.com/t/oxai-public/shared_invite/enQtNjcxMTU2Mzg4NjE1LWI5NWUwZjhkYmU0YWQ5YjNmNmQ1YmE0ZWIzM2RjNjNjNTc3YTc4MGRhZTljOTM4YmExNjQwYmRiYzlhYzg3MzM" target="_blank">
+          <div class="card py-4 h-100px">
+            <div class="card-body text-center">
+              <i class="fab fa-slack fa-5x text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Community slack</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3 mb-3 mb-md-0">
+        <a href="https://twitter.com/OxfordAI" target="_blank">
+          <div class="card py-4 h-100px">
+            <div class="card-body text-center">
+              <i class="fab fa-twitter fa-5x text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Twitter</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    <div class="col-md-3 mb-3 mb-md-0">
+      <a href="https://www.facebook.com/oxaisoc/" target="_blank">
+        <div class="card py-4 h-100px">
+          <div class="card-body text-center">
+            <i class="h-100 fab fa-facebook fa-5x text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Facebook</h4>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+</div>
+</section>
+
+
+      <!-- <div class="social d-flex justify-content-center">
+        <a href="#" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div> -->
 
 
     <script src="/js/lazysizes.min.js" async=""></script>
     <!-- Custom Theme JavaScript -->
-    <script src="/js/jquery.js"></script>
-    <script src="/js/grayscale.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="/js/grayscale.js"></script> -->
     <script type="text/javascript" src="/js/TweenLite.min.js"></script>
-    <script src="/js/script.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; OxAI 2019
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/js/grayscale.min.js"></script>
+
+    <!-- Full calendar -->
+    <script src='js/moment.min.js'></script>
+    <script src='/js/jquery.qtip.min.js'></script>
+    <!-- <script src='/js/fullcalendar/fullcalendar.min.js'></script>
+    <script src='/js/fullcalendar/gcal.js'></script> -->
+
+    <script src='/js/packages/core/main.js'></script>
+    <script src='/js/packages/interaction/main.js'></script>
+    <script src='/js/packages/daygrid/main.js'></script>
+    <script src='/js/packages/list/main.js'></script>
+    <script src='/js/packages/google-calendar/main.js'></script>
+
+    <script src="/js/script.js"></script>
 
 </body>
 

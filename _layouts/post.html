@@ -1,8 +1,8 @@
 ---
-layout: default 
+layout: default
 ---
-    
-<style>
+
+<!-- <style>
     .blog{
         width: 84%;
         margin: 0 auto;
@@ -35,10 +35,31 @@ layout: default
             font-size: 1em;
         }
     }
-</style>
+</style> -->
+
+<section class="page blog">
+  <div class="container mt-5">
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-2">{{ page.title }}</h2>
+          <h4 class="text-white mb-4">{{ page.date | date_to_string }}</h2>
+        </div>
+      </div>
+
+      <div class="row w-75 mx-auto">
+
+      {{ content }}
+
+      <p class="author">Written by
+      <br><i>{{ page.author }}</i>
+      <br><i>{{ page.email }}</i></p>
+
+      </div>
+</div>
+</section>
 
     <!--Welcome section-->
-    <div id="large-header" class="large-header container">
+    <!-- <div id="large-header" class="large-header container">
       <canvas id="demo-canvas"></canvas>
       <div class="row welcome">
         <div class="welcome2">
@@ -58,9 +79,9 @@ layout: default
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     var isBlog = true; //For width/height changes to TweenLite
-</script>
+</script> -->

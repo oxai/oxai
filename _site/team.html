@@ -13,25 +13,27 @@
 
     <title>OxAI - Oxford Artificial Intelligence Society</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="/css/grayscale.css" rel="stylesheet">
-    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-    <!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"> -->
-    <link href="/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
-    
-
-    <!-- Custom Fonts -->
-    <!-- <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Custom fonts for this template -->
     <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <!-- Custom styles for this template -->
+    <link href="/css/grayscale.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"> -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/events.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/jquery.qtip.min.css">
+    <!-- <link rel="stylesheet" href="/css/fullcalendar.min.css"> -->
+    <link href='/js/packages/core/main.css' rel='stylesheet' />
+    <link href='/js/packages/daygrid/main.css' rel='stylesheet' />
+    <link href='/js/packages/list/main.css' rel='stylesheet' />
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,169 +57,63 @@
     </script>
 
     <!-- Navigation (navigation bar on the top)-->
-<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
-        <div class="container">
-            <!--LOGO at the top-->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="/">
-                    <!-- <i class="fa fa-play-circle"></i> -->
-                    <img id="minilogo" src="/img/logo2.png"></img>
-                      <span class="light">&nbsp;OX</span>AI
-                </a>
-            </div>
 
-            <!--Links to the difference sections of the one-page webpage-->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <!-- <li>
-                            <a class="page-scroll" href="#about">About</a>
-                        </li> -->
-                        <li>
-                            <a class="page-scroll" href="/events">Events</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/join">Join</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/labs">Labs</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/blog">Blog</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/#sponsors">Sponsors</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/#partners">Partners</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="/team">Team</a>
-                        </li>
-                    </ul>
-            </div>
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="/#page-top">
+      <img id="minilogo" src="/img/logo2.png"></img>
+        <span class="light">&nbsp;OX</span>AI
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/join">Join</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/labs">Labs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/#sponsors">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/#partners">Partners</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/team">Team</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <section class="page">
+  <div class="container mt-3">
+    
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">Team</h2>
         </div>
-    </nav>
-
-
-    <section class="text-center">
-    <div class="committee-section">
-        <div class="container">
-    <div class="row">
-
-    <!--  -->
-    
-    
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src=/img/people/hailey.jpg alt="">
-            
-            <h4 class="">Hailey</h4>
-            <div class="small">President</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=blah><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-                 <div class="col-lg-4"><a href=blah><i class="fab fa-twitter text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-                 <div class="col-lg-4"><a href=blah><i class="fab fa-github text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=blah><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=blah><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
       </div>
+    
+
+          <div class="row">
+
+    
+    
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
@@ -227,8 +123,7 @@
             <h4 class="">Mengxi Wang</h4>
             <div class="small">Labs Collaborator</div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -258,7 +153,19 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=mengxi.wang@psy.ox.ac.uk><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href=mengxi.wang@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
                  
                
                  
@@ -273,292 +180,12 @@
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
             </div>
           </div>
         <!-- </div> -->
       </div>
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
-            
-            <h4 class="">Ding Shin Huang</h4>
-            <div class="small">Labs Resources Manager</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=ding.shin.huang@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
-      </div>
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
-            
-            <h4 class="">Andrea Chatrian</h4>
-            <div class="small">Treasurer</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=andrea.chatrian@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
-      </div>
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src=/img/people/raghav.png alt="">
-            
-            <h4 class="">Raghav Malik</h4>
-            <div class="small">VP of Careers</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=raghav.malik@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-                 <div class="col-lg-4"><a href=https://www.linkedin.com/in/raghav-malik-8a775042/><i class="fab fa-linkedin text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
-      </div>
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
-            
-            <h4 class="">Dominika Bakalarz</h4>
-            <div class="small">Labs Communication Officer</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=dominika.bakalarz@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
-      </div>
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
@@ -568,8 +195,7 @@
             <h4 class="">Franziska Poprawe</h4>
             <div class="small">VP of Ethics</div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -599,7 +225,7 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=franziska.poprawe@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href=franziska.poprawe@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
                  
                
                  
@@ -614,194 +240,12 @@
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
             </div>
           </div>
         <!-- </div> -->
       </div>
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
-            
-            <h4 class="">Ria Roque</h4>
-            <div class="small">Sponsorship Collaborator</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
-      </div>
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src=/img/people/guillermo.jpg alt="">
-            
-            <h4 class="">Guillermo Valle</h4>
-            <div class="small">Labs Technology Officer</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=guillermo.valle@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-                 <div class="col-lg-4"><a href=https://www.linkedin.com/in/guillefix/><i class="fab fa-linkedin text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-                 <div class="col-lg-4"><a href=https://twitter.com/guillefix><i class="fab fa-twitter text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-                 <div class="col-lg-4"><a href=https://www.facebook.com/guillermovalleperez><i class="fab fa-facebook text-primary mb-2"></i></a></div>
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=https://twitter.com/guillefix><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
-      </div>
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
@@ -811,8 +255,7 @@
             <h4 class="">Shu Ishida</h4>
             <div class="small">Labs Project Leader</div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -842,7 +285,7 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=shu.ishida@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href=shu.ishida@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
                  
                
                  
@@ -857,100 +300,22 @@
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
             </div>
           </div>
         <!-- </div> -->
       </div>
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src=/img/people/tim.png alt="">
-            
-            <h4 class="">Tim Seabrook</h4>
-            <div class="small">Labs Projects Supervisor</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=timothy.seabrook@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
-      </div>
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
             
               <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
             
-            <h4 class="">Suny Shtedritski</h4>
-            <div class="small">VP of Metrics</div>
+            <h4 class="">Sagar Vaze</h4>
+            <div class="small"></div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -980,7 +345,7 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=suny.shtedritski@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href=sagar.vaze@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
                  
                
                  
@@ -995,14 +360,12 @@
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
             </div>
           </div>
         <!-- </div> -->
       </div>
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
@@ -1012,8 +375,7 @@
             <h4 class="">Joy Wang</h4>
             <div class="small">Lead designer</div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -1043,7 +405,7 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=joy.wang@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href=joy.wang@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
                  
                
                  
@@ -1058,14 +420,436 @@
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
             </div>
           </div>
         <!-- </div> -->
       </div>
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src=/img/people/hailey.jpg alt="">
+            
+            <h4 class="">Hailey Trier</h4>
+            <div class="small">President</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=hailey.trier@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Sanaa Asim</h4>
+            <div class="small">Social Rep</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Natalia Efremova</h4>
+            <div class="small">Senior Collaborator</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=natalia.efremova2@sbs.ox.ac.uk><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+                 <div class="col-3"><a href=https://twitter.com/burantiar><i class="fab fa-twitter text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+                 <div class="col-3"><a href=https://www.linkedin.com/in/natalieef/><i class="fab fa-linkedin text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=https://twitter.com/burantiar><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src=/img/people/raghav.png alt="">
+            
+            <h4 class="">Raghav Malik</h4>
+            <div class="small">VP of Careers</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=raghav.malik@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+                 <div class="col-3"><a href=https://www.linkedin.com/in/raghav-malik-8a775042/><i class="fab fa-linkedin text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Suny Shtedritski</h4>
+            <div class="small">VP of Metrics</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=suny.shtedritski@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Andrea Chatrian</h4>
+            <div class="small">Treasurer</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=andrea.chatrian@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
@@ -1075,8 +859,7 @@
             <h4 class="">Rayne Sullivan</h4>
             <div class="small">Sponsorship Collaborator</div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -1106,7 +889,7 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=rayne.sullivan@merton.ox.ac.uk><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href=rayne.sullivan@merton.ox.ac.uk><i class="fas fa-envelope text-primary mb-2"></i></a></div>
                  
                
                  
@@ -1121,25 +904,22 @@
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
             </div>
           </div>
         <!-- </div> -->
       </div>
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
             
-              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+              <img class="img-circle img-responsive img-center committee" src=/img/people/guillermo.jpg alt="">
             
-            <h4 class="">Yingtong Chen</h4>
-            <div class="small">Scrum Master</div>
+            <h4 class="">Guillermo Valle</h4>
+            <div class="small">Labs Technology Officer</div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -1169,7 +949,19 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=yingtong.chen@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=guillermo.valle@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
                  
                
                  
@@ -1178,31 +970,70 @@
                
                  
                
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+                 <div class="col-3"><a href=https://www.linkedin.com/in/guillefix/><i class="fab fa-linkedin text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+                 <div class="col-3"><a href=https://twitter.com/guillefix><i class="fab fa-twitter text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+                 <div class="col-3"><a href=https://www.facebook.com/guillermovalleperez><i class="fab fa-facebook text-primary mb-2"></i></a></div>
                  
                
               
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=https://twitter.com/guillefix><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
             </div>
           </div>
         <!-- </div> -->
       </div>
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
             
-              <img class="img-circle img-responsive img-center committee" src=/img/people/anonymous.png alt="">
+              <img class="img-circle img-responsive img-center committee" src=/img/people/ruben.jpg alt="">
             
             <h4 class="">Ruben Drayton</h4>
             <div class="small">VP of Partnerships</div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -1244,7 +1075,7 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=ruben.drayton@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href=ruben.drayton@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
                  
                
                  
@@ -1259,77 +1090,12 @@
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
             </div>
           </div>
         <!-- </div> -->
       </div>
       
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
-        <!-- <div class="card py-4 h-100"> -->
-          <!-- <div class="card-body text-center"> -->
-          <div class="text-center">
-            
-              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
-            
-            <h4 class="">Natalia Efremov</h4>
-            <div class="small">Senior Collaborator</div>
-            <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
-              
-              
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-                
-                 
-                 <div class="col-lg-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div>
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-                 
-               
-              
-              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
-              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
-      </div>
-      
-      <div class="col-lg-3 mb-3 mb-md-0" style="margin: 1rem 0rem; padding: 0rem 3rem; height: 100%">
+      <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
@@ -1339,8 +1105,7 @@
             <h4 class="">Kai Zhi Teh</h4>
             <div class="small">Events Officer</div>
             <hr class="my-2">
-            <div class="row committee-member">
-              <div class="centered">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
               
               
               
@@ -1370,7 +1135,7 @@
               
                 
                  
-                 <div class="col-lg-4"><a href=kai.zhi.teh@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href=kai.zhi.teh@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
                  
                
                  
@@ -1385,8 +1150,402 @@
               <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
               <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
-
-              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Yingtong Chen</h4>
+            <div class="small">Scrum Master</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=yingtong.chen@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Huw Roberts</h4>
+            <div class="small">VP of Public Relations</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=huw.roberts@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Dominika Bakalarz</h4>
+            <div class="small">Labs Communication Officer</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=dominika.bakalarz@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Ria Roque</h4>
+            <div class="small">Sponsorship Collaborator</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src=/img/people/tim.png alt="">
+            
+            <h4 class="">Tim Seabrook</h4>
+            <div class="small">Labs Projects Supervisor</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=timothy.seabrook@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="card py-4 h-100"> -->
+          <!-- <div class="card-body text-center"> -->
+          <div class="text-center">
+            
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            
+            <h4 class="">Ding Shin Huang</h4>
+            <div class="small">Labs Resources Manager</div>
+            <hr class="my-2">
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              
+              
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+                
+                 
+                 <div class="col-3"><a href=ding.shin.huang@oxai.org><i class="fas fa-envelope text-primary mb-2"></i></a></div>
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+                 
+               
+              
+              <!-- <div class="col-4"><a href=><i class="fas fa-envelope text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-twitter text-primary mb-2"></i></a></div> -->
+              <!-- <div class="col-4"><a href=><i class="fab fa-github text-primary mb-2"></i></a></div> -->
             </div>
           </div>
         <!-- </div> -->
@@ -1395,22 +1554,46 @@
 
 
   </div>
-  </div>
-  </div>
+
+</div>
 </section>
 
 
     <script src="/js/lazysizes.min.js" async=""></script>
     <!-- Custom Theme JavaScript -->
-    <script src="/js/jquery.js"></script>
-    <script src="/js/grayscale.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="/js/grayscale.js"></script> -->
     <script type="text/javascript" src="/js/TweenLite.min.js"></script>
-    <script src="/js/script.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; OxAI 2019
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/js/grayscale.min.js"></script>
+
+    <!-- Full calendar -->
+    <script src='js/moment.min.js'></script>
+    <script src='/js/jquery.qtip.min.js'></script>
+    <!-- <script src='/js/fullcalendar/fullcalendar.min.js'></script>
+    <script src='/js/fullcalendar/gcal.js'></script> -->
+
+    <script src='/js/packages/core/main.js'></script>
+    <script src='/js/packages/interaction/main.js'></script>
+    <script src='/js/packages/daygrid/main.js'></script>
+    <script src='/js/packages/list/main.js'></script>
+    <script src='/js/packages/google-calendar/main.js'></script>
+
+    <script src="/js/script.js"></script>
 
 </body>
 
