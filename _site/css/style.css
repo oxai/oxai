@@ -200,6 +200,12 @@ body {
     width: 150px;
     height: 150px;
 		margin: 10px auto;
+	object-fit: cover;
+}
+
+.centered {
+	float: none;
+	margin: 0 auto;
 }
 
 .committee-section h4 > small{

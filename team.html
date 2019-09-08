@@ -7,22 +7,28 @@ header: Team
 
     <div class="row">
 
+    {% assign len = site.data.team | size %}
+    {% assign shuffled_array = site.data.team | sample: len %}
       {% for member in site.data.team %}
       <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
           <div class="text-center">
-            <img class="img-circle img-responsive img-center committee" src={{ member.picture }} alt="">
+            {% if member.picture %}
+              <img class="img-circle img-responsive img-center committee" src={{ member.picture }} alt="">
+            {% else %}
+              <img class="img-circle img-responsive img-center committee" src="/img/people/anonymous.png" alt="">
+            {% endif %}
             <h4 class="">{{ member.name }}</h4>
             <div class="small">{{ member.role }}</div>
             <hr class="my-2">
-            <div class="row w-50 mx-auto">
-              {% assign contacts = "email, twitter, github, linkedin" | split: ", "%}
-              {% assign icons = "fas fa-envelope, fab fa-twitter, fab fa-github, fab fa-linkedin" | split: ", " %}
-              {% for i in (0..3) %}
-                {% for thing in member %}
+            <div class="row w-50 mx-auto mb-2 justify-content-center">
+              {% assign contacts = "email, twitter, github, linkedin, facebook" | split: ", "%}
+              {% assign icons = "fas fa-envelope, fab fa-twitter, fab fa-github, fab fa-linkedin, fab fa-facebook" | split: ", " %}
+              {% for thing in member %}
+                {% for i in (0..4) %}
                  {% if thing[0] == contacts[i] %}
-                 <div class="col-4"><a href={{ thing[1] }}><i class="{{ icons[i] }} text-primary mb-2"></i></a></div>
+                 <div class="col-3"><a href={{ thing[1] }}><i class="{{ icons[i] }} text-primary mb-2"></i></a></div>
                  {% endif %}
                {% endfor %}
               {% endfor %}

@@ -5,9 +5,77 @@
   twitter: blah
   github: blah
 
-- name: Kai
+- name: Ruben Drayton
   picture: /img/people/anonymous.png
+  role: VP of Partnerships
+  email: ruben.drayton@oxai.org
+
+- name: Kai Zhi Teh
   role: Events Officer
-  email: blah
-  twitter: blah
-  linkedin: blah
+  email: kai.zhi.teh@oxai.org
+
+- name: Raghav Malik
+  picture: /img/people/raghav.png
+  role: VP of Careers
+  email: raghav.malik@oxai.org
+  linkedin: https://www.linkedin.com/in/raghav-malik-8a775042/
+
+- name: Guillermo Valle
+  picture: /img/people/guillermo.jpg
+  role: Labs Technology Officer
+  email: guillermo.valle@oxai.org
+  linkedin: https://www.linkedin.com/in/guillefix/
+  twitter: https://twitter.com/guillefix
+  facebook: https://www.facebook.com/guillermovalleperez
+
+- name: Yingtong Chen
+  role: Scrum Master
+  email: yingtong.chen@oxai.org
+
+- name: Andrea Chatrian
+  role: Treasurer
+  email: andrea.chatrian@oxai.org
+
+- name: Joy Wang
+  role: Lead designer
+  email: joy.wang@oxai.org
+
+- name: Dominika Bakalarz
+  role: Labs Communication Officer
+  email: dominika.bakalarz@oxai.org
+
+- name: Tim Seabrook
+  role: Labs Projects Supervisor
+  email: tim.seabrook@oxai.org
+
+- name: Ding Shin Huang
+  role: Labs Resources Manager
+  email: ding.shin.huang@oxai.org
+
+- name: Shu Ishida
+  role: Labs Project Leader
+  email: shu.ishida@oxai.org
+
+- name: Suny Shtedritski
+  role: VP of Metrics
+  email: suny.shtedritski@oxai.org
+
+- name: Franziska Poprawe
+  role: VP of Ethics
+  email: franziska.poprawe@oxai.org
+
+- name: Natalia Efremov
+  role: Senior Collaborator
+  email:
+
+- name: Mengxi Wang
+  role: Labs Collaborator
+  email: mengxi.wang@psy.ox.ac.uk
+
+- name: Rayne Sullivan
+  role: Sponsorship Collaborator
+  email: rayne.sullivan@merton.ox.ac.uk
+
+- name: Ria Roque
+  role: Sponsorship Collaborator
+  email: 
