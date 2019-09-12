@@ -64,10 +64,12 @@
 - name: Shu Ishida
   role: Labs Project Leader
   email: shu.ishida@oxai.org
+  picture: /img/people/shu.jpg
 
 - name: Suny Shtedritski
   role: VP of Metrics
   email: suny.shtedritski@oxai.org
+  picture: /img/people/suny.png
 
 - name: Franziska Poprawe
   role: VP of Ethics
