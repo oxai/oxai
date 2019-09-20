@@ -23,6 +23,10 @@
   email: raghav.malik@oxai.org
   linkedin: https://www.linkedin.com/in/raghav-malik-8a775042/
 
+- name: Kaloyan Aleksiev
+  role: Careers Operations and Communications Officer
+  email: kaloyan.aleksiev@oxai.org
+
 - name: Guillermo Valle
   picture: /img/people/guillermo.jpg
   role: Labs Technology Officer
@@ -47,6 +51,7 @@
 - name: Joy Wang
   role: Lead designer
   email: joy.wang@oxai.org
+  picture: /img/people/joy.jpg
 
 - name: Dominika Bakalarz
   role: Labs Communication Officer
@@ -89,11 +94,12 @@
   picture: /img/people/mengxi.jpg
 
 - name: Rayne Sullivan
-  role: Sponsorship Collaborator
+  role: VP of Global Affairs-Sponsorship
+  picture: /img/people/rayne.png
   email: rayne.sullivan@merton.ox.ac.uk
 
 - name: Ria Roque
-  role: Sponsorship Collaborator
+  role: Partnerships Collaborator
   email:
 
 - name: Huw Roberts
