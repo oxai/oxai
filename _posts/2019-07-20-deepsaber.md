@@ -2,7 +2,7 @@
 layout: post 
 title: 'DeepSaber: Generating Beat Saber levels using Machine Learning'
 author: Ralph Abboud
-email: labs@oxai.org
+email: ralph.abboud@oxai.org
 ---
 
 During Hilary and Trinity Term 2019, OxAI Labs piloted its premier research project with a team of seven mixed-discipline Oxford students. The objective of the team was to investigate the development of an Artificial Intelligence (AI) level generator for the [Beat Saber](https://beatsaber.com/) Virtual Reality (VR) game.
