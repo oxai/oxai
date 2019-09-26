@@ -51,6 +51,24 @@ Edit the file `_data/team.yml`, and add or edit a record with the format:
 
 Where the only compulsory fields are `name` and `role`. If you want to change the profile picture you should drop it in `/img/people/` and then update the field `picture` above. If you don't have a `picture` field, then the picture defaults to `/img/people/anonymous`.
 
+## How to add a post to the blog
+
+Open folder `/_posts/`. Click on the button "Create new file" on the top right. Name your file with a name like `2018-12-5-careers_tips_communication.md`, where the first bit should be the date of the post, and the next can be anything but use underscores "\_" instead of spaces. Then the content of the file can use [Markdown](https://daringfireball.net/projects/markdown/) syntax, to do things like include links, images (which you can put in the `/img/` folder), urls, etc. Markdown should be a pretty easy language to learn, as it's designed to be very minimal. If you want though you can use a markdown editor, of which there are many online (e.g. https://stackedit.io/app), which can give you a GUI to create markdown documents. It also supports HTML if you wanna include something fancy :D
+
+```md
+---
+layout: post 
+title: 'Tips for Securing Careers in AI: Communication'
+author: Timothy Seabrook
+email: firstname.lastname@oxai.org
+---
+
+Content of the blog post here blah blah
+
+```
+
+where you put the content instead of the "Content of the blog post here blah blah", you replace the field `title` with the title of the post, the field `author` with the author, and `email` with their email. The content of the post can use 
+
 ## To add events
 Really we'll be using this if we are going to have "event posts", but for completeness: You can manually add events by editing `/_data/events.yml` for "current/future" events, or `/_data/pastevents.yml` for past events. Both will be shown in oxai.org/events. The format is
 
