@@ -123,6 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
           let upcoming_event_htmls = next_events.map(x=>event_html_string(x.start_date.year+"-"+x.start_date.month+"-"+x.start_date.day,x.start_date.day, x.start_date.month, x.start_date.year, x.start_date.hour+":"+x.start_date.minute, x.text.headline, x.media.url, "",x.url))
           // console.log(all_event_htmls);
           // let event_html = new DOMParser().parseFromString(html_string, 'text/html')
+          if (upcoming_event_htmls.length > 0) document.querySelector('#coming-soon-message').remove()
           upcoming_event_htmls.forEach(html=>{
             document.querySelector('#upcoming-event-list').insertAdjacentHTML('beforeend',html)
           });
