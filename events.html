@@ -11,9 +11,9 @@ title: Events
   <div class="row mt-3">
   	<div class="col-12">
       <!-- {{ site.data.events | size }} -->
+      <ul id="upcoming-event-list" class="event-list">
       {% if site.data.events.size | size %}
 
-      <ul id="upcoming-event-list" class="event-list">
           {% for event in site.data.events %}
   					<li>
   						<time datetime={{ event.datetime }}>
@@ -45,10 +45,10 @@ title: Events
   						</div>
   					</li>
             {% endfor %}
-  				</ul>
           {% else %}
           Comming soon..
         {% endif %}
+  				</ul>
 
       </div>
     </div>
