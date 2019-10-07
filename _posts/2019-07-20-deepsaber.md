@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: 'DeepSaber: Generating Beat Saber levels using Machine Learning'
+title: 'DeepSaber - Generating Beat Saber levels using Machine Learning'
 author: Ralph Abboud
 email: ralph.abboud@oxai.org
 ---
