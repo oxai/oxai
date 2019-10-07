@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: 'AI Tech Talent Networking Event'
+title: 'Emerging Technologies Party'
 author: Huw Roberts
 email: huw.roberts@oxai.org
 ---
