@@ -8,7 +8,7 @@ description: OxAI has developed an automatic level generator for the BeatSaber V
 
 Here is a glimpse of how DeepSaber (v1) works:
 
-<figure class="video_container">
+<figure class="video_container" align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KEoub64Zfp8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
