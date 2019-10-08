@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Beat Saber level generator
+title: DeepSaber - A Beat Saber level generator
 description: OxAI has developed an automatic level generator for the BeatSaber VR game.
 ---
 
