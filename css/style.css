@@ -80,6 +80,15 @@ body {
 	color: white;
 }
 
+.about_icon {
+	width: 50%;
+	margin-bottom: 1rem;
+}
+
+.about-section p {
+	margin-bottom: 3rem;
+}
+
 .about-section {
 	/* min-height:75vh; */
 	min-height:50vh;
