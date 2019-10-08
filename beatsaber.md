@@ -16,3 +16,5 @@ You can find more about the project, in the following blog posts:
 
 [DeepSaber - Generating Beat Saber levels using Machine Learning](/2019/07/20/deepsaber.html) (20 Jul 2019)
 
+[DeepSaber2 - Better data and open sourcing the code](/2019/09/24/deepsaber2.html) (24 Sep 2019)
+
