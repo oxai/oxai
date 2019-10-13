@@ -1,37 +1,41 @@
 <section id="about" class="about-section text-center">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2 class="text-white mb-4">What we do</h2>
-        <p class="text-white-50">Embedded in the University of Oxford, the society provides a platform to educate, build, connect, and employ an Artificial Intelligence community that constantly drives innovation for the University and the World.</p>
-      </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3" onclick='(function(){$(".pillar-description:not(#community-text)").hide();$("#community-text").toggle()})();'>
           <a target="_blank">
             <img class="about_icon" src="/img/community_icon.png"/>
             <h3>Community</h3>
           </a>
+          <p class="pillar-description" id="community-text" style="display:none;">We are passionate about building a community that cultivates creativity and fosters interdisciplinary exchange. Our social gatherings such as study groups and film nights connect AI researchers and enthusiasts from all academic areas at the University of Oxford. We also partner with the Oxford Foundry, an exciting new startup space sponsored by the university, where innovators at Oxford can convene and exchange ideas and insight. Recently, we have created a community Slack workspace to facilitate collaboration among members of the university and beyond. </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" onclick='(function(){$(".pillar-description:not(#education-text)").hide();$("#education-text").toggle()})();'>
           <a target="_blank">
             <img class="about_icon" src="/img/education_icon.png"/>
             <h3>Education</h3>
           </a>
+          <p class="pillar-description" id="education-text" style="display:none;">Our presentations and workshops aim to educate our members about technological advances of Artificial Intelligence, as well as associated transformative impacts on individuals, society and politics. We focus on communicating a proper understanding of AI, describing specific applications, and teaching how to create and run Machine Learning based models. Since last year we have organised a Pytorch study group, introductory courses on deep learning methods, and a workshop on statistical learning. We also organised a course on the Ethics of AI, which will take place again this academic year. We always encourage an interdisciplinary debate to tackle questions of accountability, responsibility, governance and fairness.</p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" onclick='(function(){$(".pillar-description:not(#labs-text)").hide();$("#labs-text").toggle()})();'>
+          <img class="about_icon" src="/img/labs_icon.png"/>
           <a href="/labs" target="_blank">
-            <img class="about_icon" src="/img/labs_icon.png"/>
             <h3>Labs</h3>
           </a>
+          <p class="pillar-description" id="labs-text" style="display:none;">Our diverse and experienced OxAI Labs team conducts unique machine-learning based research projects. In each project, we seek to identify shared-objective research and to facilitate its pursuit through creative and experimental approaches. It's our aim to foster collaboration across Oxford’s multidisciplinary community, both for participants' personal development and, through effective research goals and practices, to promote social and environmental wellbeing and progress.</p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" onclick='(function(){$(".pillar-description:not(#careers-text)").hide();$("#careers-text").toggle()})();'>
           <a target="_blank">
             <img class="about_icon" src="/img/careers_icon.png"/>
-            <h3>Careers</h3>
+            <h3>Recruitment &amp; careers</h3>
           </a>
+          <p class="pillar-description" id="careers-text" style="display:none;">We connect our Sponsors and Partners with talented students from the University of Oxford, while showing students who seek a career in AI what opportunities they have in the industry. We support not only those with technical development skills and ambitions in AI applications, but also students who work on the ethical, social and legal aspects of AI development, or aspire to do so. Our aim is to prepare our members to excel in AI recruiting processes by giving them support on CV and cover letter editing, as well as equipping them with the technical skills to work in the industry. </p>
         </div>
     </div>
     <!-- <img src="img/oxford.png" class="img-fluid" alt=""> -->
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-white mb-4">Our future</h2>
+        <p class="text-white-50">In the coming year we are planning exciting events, including machine learning workshops, a lecture series pairing AI methodology with practical use cases, speaker events and workshops targeting social and ethical considerations within AI development, and more. We also intend to expand our Recruitment and Career program to improve access, awareness and employability for students who wish to work in the AI industry, or on the social consequences of AI-driven markets. At OxAI Labs we will be brainstorming and developing our own AI projects to address problems within fair, safe and accountable AI development. We plan to establish a dedicated OxAI “Hacker Space” where members can collaborate on projects, use computing resources, and pool ideas to drive rapid innovation. </p>
+      </div>
+    </div>
   </div>
 </section>
