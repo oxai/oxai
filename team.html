@@ -27,7 +27,7 @@ header: Team
               {% assign icons = "fas fa-envelope, fab fa-twitter, fab fa-github, fab fa-linkedin, fab fa-facebook" | split: ", " %}
               {% for thing in member %}
                  {% if thing[0] == contacts[0] %} <!--email-->
-                    <div class="col-3"><a href={{ "mailto:" | append: thing[1] }}><i class="{{ icons[i] }} text-primary mb-2"></i></a></div>
+                    <div class="col-3"><a href={{ "mailto:" | append: thing[1] }}><i class="{{ icons[0] }} text-primary mb-2"></i></a></div>
                  {% endif %}
                 {% for i in (1..4) %} <!--other contacts-->
                  {% if thing[0] == contacts[i] %}
