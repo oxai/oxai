@@ -27,4 +27,4 @@ If some desired skill is identified to be lacking before or during an applicatio
 
 The framework of ‘_Why, how, what_’ gives a natural approach to conveying the purpose of knowledge prior to it’s receipt, improving intake, and has been used to great effect in marketing. Check out [this video](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action) for more on that!
 
-I hope you’ve enjoyed this first issue of _Securing Careers in AI_. Next month we’ll discuss how you can prepare your technical skills for demonstration.
+I hope you’ve enjoyed this first issue of _Securing Careers in AI_, best of luck in your communications!
