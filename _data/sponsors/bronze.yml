@@ -1,7 +1,3 @@
-- name: Herbertsmith Freehills
-  url: https://www.herbertsmithfreehills.com/
-  img: /img/sponsors/hsf.png
-
 - name: Envelop
   url: https://www.enveloprisk.com/
   img: /img/sponsors/envelop.png
@@ -13,5 +9,4 @@
 - name: Entrepreneur First
   url: https://www.joinef.com/
   img: /img/sponsors/EF.png
-  
   
