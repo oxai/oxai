@@ -32,3 +32,7 @@ On May 29th, OxAI Labs hosted its premier demo day to present the results of the
 The completition of the Beat Saber project represents OxAI Labs’ first major enterprise into community-led research. The project was intended to encourage collaboration and learning and I am very happy to confirm the value that we have each taken away during its pursuit. We aim to build on the success of Beat Saber and will soon be announcing new projects for Michaelmas 2019. We look forward to hosting new community collaborations soon and are very excited for the developments that lie ahead.
 
 Make sure to Subscribe to the OxAI Labs newsletter if you are interested in participating in a future OxAI Labs Research Project.
+
+<p align="center">
+  <img width="70%" style="margin:auto;" src="/img/deepsaber_team.jpg" alt="DeepSaber team" title="DeepSaber team"/>
+</p>
