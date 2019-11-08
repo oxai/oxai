@@ -1,3 +1,7 @@
+- name: Herbert Smith Freehills
+  url: https://www.herbertsmithfreehills.com/
+  img: /img/sponsors/hsf.png
+
 - name: Envelop
   url: https://www.enveloprisk.com/
   img: /img/sponsors/envelop.png
@@ -9,7 +13,3 @@
 - name: Entrepreneur First
   url: https://jobs.lever.co/joinefnow/b88a4eba-bbb4-492e-a77a-f36c1328d9dd?lever-origin=applied&lever-source%5B%5D=OxAI%20Partner
   img: /img/sponsors/EF.png
-  
-- name: Herbert Smith Freehills
-  url: https://www.herbertsmithfreehills.com/
-  img: /img/sponsors/hsf.png
