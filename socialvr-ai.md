@@ -6,11 +6,9 @@ description: Virtual developmental robotics in a social VR environment
 
 The aim of this project is to build a framework to train AI agents in social virtual reality (VR) environments. The main motivations are to explore how social interactions with humans can benefit the development of more human-like artificial intelligence, and whether it has the potential to pose a systematic risk to human society. This idea builds on top of research in developmental robotics, reinforcement learning, and psychology. However, research in human-AI social interaction has been limited by the use of expensive robots and sensing systems. We propose to massively scale up and lower the barrier for these types of experiments by using new VR technologies.
 
-<div class="container">
-    <div class="row text-center">
-        <div class="col-12">
-            <img src="img/VRAI_timeline2.png" width="500">
-        </div>
+<div class="row text-center">
+    <div class="col-12">
+        <img src="img/VRAI_timeline2.png" width="500">
     </div>
 </div>
 
