@@ -10,7 +10,6 @@ The aim of this project is to build a framework to train AI agents in social vir
     <div class="row text-center">
         <div class="col-12">
             <img src="img/VRAI_timeline2.png" width="500">
-            <br>
         </div>
     </div>
 </div>
