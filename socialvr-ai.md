@@ -1,12 +1,16 @@
 ---
 layout: project
-title: AI in virtual social environments
+title: AI in Virtual Social Environments
 description: Virtual developmental robotics in a social VR environment
 ---
 
-The aim of this project is to build a framework to for AI resarch in social virtual reality (VR) environments. The main motivations are to gain insight into human behaviour, and to explore how social interactions with humans in complex environments can benefit the development of artificial intelligence for different applications. This idea builds on top of research in robotics, reinforcement learning (RL), and psychology, among others. However, research in human-AI and human-human social interaction has been limited by the use of expensive robots and sensing systems. We propose to massively scale up and lower the barrier for these types of experiments by using new VR technologies.
+The aim of this project is to build a framework to train AI agents in social virtual reality (VR) environments. The main motivations are to explore how social interactions with humans can benefit the development of more human-like artificial intelligence, and whether it has the potential to pose a systematic risk to human society. This idea builds on top of research in developmental robotics, reinforcement learning, and psychology. However, research in human-AI social interaction has been limited by the use of expensive robots and sensing systems. We propose to massively scale up and lower the barrier for these types of experiments by using new VR technologies.
 
-Our approach is to build a software framework on top of an existing social VR application (e.g. [NeosVR](https://neosvr.com/), [VRChat](https://www.vrchat.com/)), and to test this framework by experimenting with novel learning algorithms, and novel learning tasks and environments.
+<div class="row text-center">
+    <img src="img/VRAI_timeline2.png" width="500"></img>
+</div>
+
+This will be an ongoing project across multiple years. The initial stage will last seven months from 25/11/2019 to 25/06/2020 and aimed towards building a standardized software framework on top of existing social VR applications e.g. [NeosVR](https://neosvr.com/), [VRChat](https://www.vrchat.com), and to test this framework by experimenting with novel learning algorithms, and novel learning tasks and environments.
 
 Check out our [Github repo](https://github.com/oxai/vrai/), and (not yet very active) [Discord group](discord.gg/HQ8Crcw)
 
