@@ -1,13 +1,12 @@
 ---
 layout: project
 title: AI in Virtual Social Environments
-description: Virtual developmental robotics in a social VR environment
 ---
 
 <div class="row text-center">
     <div class="col-12">
         <div>
-            <img src="img/VRAI_timeline2.png" width="500"></img>
+            <img src="img/VRAI_timeline2.png" width="500">
         </div>
         <div>
             <p>Provisional Timeline</p>
