@@ -7,11 +7,11 @@ The aim of this project is to build a framework to train AI agents in social vir
 
 This will be an ongoing project across multiple years. The initial stage will last seven months from 25/11/2019 to 25/06/2020 and aimed towards building a standardized software framework on top of existing social VR applications e.g. [NeosVR](https://neosvr.com/), [VRChat](https://www.vrchat.com), and to test this framework by experimenting with novel learning algorithms, and novel learning tasks and environments.
 
-<div align="center">
+<!-- <div align="center">
     <div style="width:500px;max-width:85vw;">
     <img src="img/VRAI_timeline2.png" style="max-width:100%;max-height:100%;">
     </div>
-</div>
+</div> -->
 
 Check out our [Github repo](https://github.com/oxai/vrai/), and (not yet very active) [Discord group](discord.gg/HQ8Crcw)
 
