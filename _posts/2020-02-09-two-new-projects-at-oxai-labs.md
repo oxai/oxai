@@ -5,7 +5,7 @@ author: Dominika Bakalarz
 email: dominika.bakalarz@oxai.org
 ---
 Michaelmas term was very productive for OxAI Labs. At the start of the term the team chose two topics to work on during this academic year, and spent the following couple of weeks interviewing students interested in joining the projects. We are glad to admit that there were many exceptional candidates, and we were happy to see so many Oxford students passionate about AI. The applications truly reflected a wealth of talent and passion in the community and it was a great pleasure to talk to everyone.
- 
+
 On the 10th of November, we held the first official meeting for all members of the two newly formed teams, and the work began. We are planning to develop the projects before the start of Trinity term. In this article, I would like to briefly describe the two research ideas, and mostly, to welcome all new members to OxAI! 
 <br><br>
 ##### Earth and Space - Satellite Image Analysis to Detect, Assess and Suggest Intervention Strategies for Wildfires
