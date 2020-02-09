@@ -44,9 +44,3 @@ Our approach is to build a software framework on top of an existing social VR ap
 
 
 If you are interested in hearing more about our progress or the OxAI in general, I strongly encourage you to sign up for our weekly [newsletter](https://oxai.org/join) and to visit our [facebook page](https://www.facebook.com/oxaisoc/). Last year the OxAI Labs team were working on a model generating new levels for a VR game called Beat Saber, you can read more about it [here](http://oxai.org/2019/09/24/deepsaber2.html).
- 
- 
-Dominika Bakalarz
-
-
-
