@@ -8,7 +8,7 @@ Michaelmas term was very productive for OxAI Labs. At the start of the term the 
  
 On the 10th of November, we held the first official meeting for all members of the two newly formed teams, and the work began. We are planning to develop the projects before the start of Trinity term. In this article, I would like to briefly describe the two research ideas, and mostly, to welcome all new members to OxAI! 
  
-#### Earth and Space - Satellite Image Analysis to Detect, Assess and Suggest Intervention Strategies for Wildfires
+##### Earth and Space - Satellite Image Analysis to Detect, Assess and Suggest Intervention Strategies for Wildfires
  
 Shu Ishida (project leader), DPhil in Autonomous Intelligent Machines and Systems at Christ Church College   
 Dr Natalia Efremova, Teradata Research Fellow in Marketing and AI at Said Business School  
@@ -22,7 +22,7 @@ Continuing increases in wildfire occurrences are detrimental to the ecosystem of
  
 The project proposes to apply machine learning to detect wildfire, forecast its spread, and assess its cause. The challenge will be addressed by analysing satellite images, local weather conditions, local geographic and demographic characteristics, and governmental reports and statistics on wildfire. We will provide an interactive web service to monitor the spread of wildfire and visually assess its cause and risk of future occurrences, which will be made available to the public audience. Furthermore, since more than 80 percent of the wildfires are said to result from human causes, either intentionally or unintentionally, we hope to raise public awareness by visualizing the consequences of wildfires.
 
-#### AI in virtual social environments - Virtual developmental robotics in a social VR environment
+##### AI in virtual social environments - Virtual developmental robotics in a social VR environment
  
 Shin Ding Huang (project leader), OxAI  
 Guillermo Valle (project leader), DPhil in Physics at Magdalen College  
