@@ -10,13 +10,13 @@ On the 10th of November, we held the first official meeting for all members of t
  
 ##### Earth and Space - Satellite Image Analysis to Detect, Assess and Suggest Intervention Strategies for Wildfires
  
-Shu Ishida (project leader), DPhil in Autonomous Intelligent Machines and Systems at Christ Church College   
+*Shu Ishida (project leader), DPhil in Autonomous Intelligent Machines and Systems at Christ Church College   
 Dr Natalia Efremova, Teradata Research Fellow in Marketing and AI at Said Business School  
 Charlie Griffin, Undergraduate in Computer Science and Philosophy at Hertford College  
 Jan Malinowski, Undergraduate in Physics at Corpus Christi College  
 Louis Mahon, DPhil in Computer Science at Linacre College  
 Benedetta Mussati, Master’s in Computer Science at St Hugh’s College  
-Alexandre Szenicer, DPhil in Geophysics at Linacre College
+Alexandre Szenicer, DPhil in Geophysics at Linacre College*
  
 Continuing increases in wildfire occurrences are detrimental to the ecosystem of rainforests and have direct consequences for the climate. Research shows that wildfire activity appears strongly associated with warming and earlier spring snowmelt. Additionally, forest fires release CO2 into the atmosphere, which in turn increases the rate of forest fires, creating a snowball effect. 
  
@@ -24,14 +24,14 @@ The project proposes to apply machine learning to detect wildfire, forecast its 
 
 ##### AI in virtual social environments - Virtual developmental robotics in a social VR environment
  
-Shin Ding Huang (project leader), OxAI  
+*Shin Ding Huang (project leader), OxAI  
 Guillermo Valle (project leader), DPhil in Physics at Magdalen College  
 Mengxi Wang, DPhil in Experimental Psychology at Christ Church College  
 Yi Fei Cheung, Undergraduate in Computer Science at Wadham College  
 Brandon Smith, Undergraduate in Physics at Magdalen College  
 James Stomber, MSc in Social Science of the Internet,  
 Ryan Hughes, DPhil in Physics,   
-Benjie Wang, DPhil in Computer Science at Keble College
+Benjie Wang, DPhil in Computer Science at Keble College*
  
 The aim of this project is to build a framework to train AI agents in social virtual reality (VR) environments. The main motivations are to explore how social interactions with humans can benefit the development of more human-like artificial intelligence, and whether it has the potential to pose a systematic risk to human society. This idea builds on top of research in developmental robotics, reinforcement learning, and psychology. However, research in human-AI social interaction has been limited by the use of expensive robots and sensing systems. Therefore, we propose to go beyond such limitations and lower the barrier for these types of experiments by using new VR technologies.
  
