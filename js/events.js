@@ -52,7 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // Examine the text in the response
       response.json().then(function(data) {
           console.log("eventbrite response", data);
-          let events = data.events.slice(2).map((e,i)=>({
+          let events = data.events.slice(2)
+              .filter(e=>d.status=="live")
+              .map((e,i)=>({
               "id":(1000+i).toString(),
               "year": e.start.local.split("-")[0],
               "month": e.start.local.split("-")[1],
