@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
       response.json().then(function(data) {
           console.log("eventbrite response", data);
           let events = data.events.slice(2)
-              .filter(e=>d.status=="live")
+              .filter(e=>e.status!=="draft")
               .map((e,i)=>({
               "id":(1000+i).toString(),
               "year": e.start.local.split("-")[0],
