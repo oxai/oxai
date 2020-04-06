@@ -1,0 +1,22 @@
+---
+layout: post 
+title: 'Bridging the Gap between AI Technologies and Governance'
+author: Natasha Vincent
+email: natasha.vincent@oxai.org
+---
+
+AI has become an increasingly visible term in mainstream media as technology continues to proliferate in this modern day. However, the increasing use of AI brings complex implications for public policy that need to be addressed through cooperation between AI researchers and governments. My internship with a financial regulator last summer exposed me to the practical realities that governments face in facilitating and regulating technologies such as FinTech. Given this experience, the AI Ethics and Society course, offered by the Oxford AI Society, piqued my interest because of its focuses on the intersections between governance and technology, and more importantly, the grey spaces between them.
+
+A particular moment in the course that stands out in my memory is when Dr. Ashurst elaborated on how machine bias can inadvertently affect the fairness of real-world processes, such as hiring. Increasingly, companies use video interview software and psychometric testing tools that are powered by AI. These systems use machine learning models to assess candidates in the preliminary stages of the recruitment process. This results in increased efficiency since the system identifies candidates who will progress to the next rounds, and hence reduces the time taken for Human Resource departments to sift through individual applications.  
+
+While companies claim that using these software also reduce biases, independent analysts assert that biases could actually be reinforced. An example of such software is HireVue’s emotion recognition, which is used in assessments of prospective candidates during video interviews. The programme functions by analysing word choices, tone and facial movements and providing candidates with a score based on what is deemed desirable. Since the software is based on machine learning, it begins to prefer characteristics that are similar across subsets of successful applicants – hence potentially penalising non-native speakers or those who appear nervous. This bias needs to be manually corrected by developers, but there exists a time lag between recognising and eradicating it. Thus, before such human intervention occurs, numerous candidates would have been subject to the bias in the algorithm. 
+
+Having gone through such application processes for internships myself, I find it rather perplexing that it is AI in its early stages that can either make or break my chances of success, and that individuals first have to get through the AI system in order to get a face-to-face interview with a real person only in the final rounds. 
+
+Therefore, I believe that governments and regulatory organisations need to do more to address the societal issues posed by AI. The course highlighted that AI use is currently concentrated among corporations and firms, so I think there needs to be greater cooperation between the public and private sectors in addressing the ethical risks posed by AI. To be frank, however, I am sceptical about the viability of regulating rapidly adapting technologies, simply because policymakers have been plagued by the inertia of being unable to promptly react to technological change. This is underscored by a more fundamental (and unfortunate) ignorance or perhaps even complacency about machine intelligence. A prominent example of this is Mark Zuckerberg’s interrogation by members of the US Congress in 2018, who seemed completely unaware of Facebook’s operations. 
+
+As an aspiring policymaker, I think governments can certainly devote more resources and research efforts to understanding and tackling the ethical and societal challenges posed by AI. To that extent, this course is illuminating in how the lectures present novel solutions to AI governance and the relevance of research done at Oxford to answering the questions posed by the emergence and expansion of AI technologies.
+ 
+
+
+_Introduction to AI Ethics (and Society) was a five-part course organized by OxAI and taught by Dr. Ashurst of the Future of Humanity Institute in February and March of 2020. The course examined the most relevant and important issues that dominate the debate around ethics in AI through a series of lectures and discussion. Natasha Vincent is a student at the University of Oxford and a participant in the course._
