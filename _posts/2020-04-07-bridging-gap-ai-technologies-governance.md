@@ -2,7 +2,6 @@
 layout: post 
 title: 'Bridging the Gap between AI Technologies and Governance'
 author: Natasha Vincent
-email: natasha.vincent@oxai.org
 ---
 
 AI has become an increasingly visible term in mainstream media as technology continues to proliferate in this modern day. However, the increasing use of AI brings complex implications for public policy that need to be addressed through cooperation between AI researchers and governments. My internship with a financial regulator last summer exposed me to the practical realities that governments face in facilitating and regulating technologies such as FinTech. Given this experience, the AI Ethics and Society course, offered by the Oxford AI Society, piqued my interest because of its focuses on the intersections between governance and technology, and more importantly, the grey spaces between them.
