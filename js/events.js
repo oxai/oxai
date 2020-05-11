@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
           // console.log(events.map((x,i)=>[x,i]))
           let next_events = parsedEvents.filter(e=>inFuture(e.start_date,current,"year")).sort((a, b) => (inFuture(a.start_date,b.start_date,"year")));
-          let past_events = parsedEvents.filter(e=>inFuture(current,e.start_date,"year")).sort((a, b) => (inFuture(a.start_date,b.start_date,"year")));
+          let past_events = parsedEvents.filter(e=>inFuture(current,e.start_date,"year")).sort((a, b) => (inFuture(b.start_date,a.start_date,"year")));
           console.log(past_events)
           if (next_events.length > 0 ) {
               // let next_index = next_events.sort((a, b) => (inFuture(a[0],b[0],"year") ? 1 : 0))[0][1];
