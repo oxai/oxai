@@ -89,12 +89,12 @@ document.addEventListener('DOMContentLoaded', function() {
           function inFuture(event1,event2,timediv) { // is event1 in future of event2
               if (timediv==="") return 0 //present
               if (parseInt(event1[timediv]) > event2[timediv]) return 1
-              else if (parseInt(event1[timediv]) < event2[timediv]) return -1
+              else if (parseInt(event1[timediv]) < event2[timediv]) return 0
               else return inFuture(event1, event2, nextDiv[timediv])
           }
           // console.log(events.map((x,i)=>[x,i]))
           let next_events = parsedEvents.filter(e=>inFuture(e.start_date,current,"year")).sort((a, b) => (inFuture(a.start_date,b.start_date,"year")));
-          let past_events = parsedEvents.filter(e=>inFuture(current,e.start_date,"year")).sort((a, b) => (-1*inFuture(a.start_date,b.start_date,"year")));
+          let past_events = parsedEvents.filter(e=>inFuture(current,e.start_date,"year")).sort((a, b) => (-1*(2*inFuture(a.start_date,b.start_date,"year")-1)));
           console.log(past_events)
           if (next_events.length > 0 ) {
               // let next_index = next_events.sort((a, b) => (inFuture(a[0],b[0],"year") ? 1 : 0))[0][1];
