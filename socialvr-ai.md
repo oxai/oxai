@@ -9,7 +9,7 @@ This will be an ongoing project across multiple years. The initial stage will la
 
 <div align="center">
     <div style="width:500px;max-width:85vw;">
-    <img src="img/VRAI_timeline2.png" style="max-width:100%;max-height:100%;">
+    <img src="img/VRAI_timeline3.png" style="max-width:100%;max-height:100%;">
     </div>
 </div>
 <br/>
