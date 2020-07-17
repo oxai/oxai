@@ -15,7 +15,7 @@
   role: Diversity & Inclusion Team Lead
   email: sanaa.asim@oxai.org
   linkedin: https://www.linkedin.com/in/sanaa-asim-740691165/
-  
+
 - name: Michael Collyer
   role: Sponsorships, Partnerships & Careers Team Lead
   picture: /img/people/michael_collyer.PNG
@@ -33,11 +33,16 @@
   picture: /img/people/suny.png
 
 - name: Sagar Vaze
-  role: Sponsorships Lead 
+  role: Sponsorships Lead
   email: sagar.vaze@oxai.org
   linkedin: https://uk.linkedin.com/in/sagar-vaze-2356ab171
   twitter: https://twitter.com/Sagar_Vaze
   picture: /img/people/sagar.jpg
+
+- name: Finlay Field
+  role: Events & Media Team
+  email: finlay.field@oxai.org
+  picture: /img/people/Finlay.JPG
 
 - name: Jenny Shim
   role: Careers Lead
@@ -54,25 +59,24 @@
   email: andre.frade@oxai.org
   picture: /img/people/Andre.jpg
 
-  - name: Kate Zhu
+- name: Kate Zhu
   role: Events & Media Team
   email: kate.zhu@oxai.org
   picture: /img/people/Kate.JPG
 
-  - name: Kira Miller
+- name: Kira Miller
   role: Events & Media Team
   email: kira.miller@oxai.org
   picture: /img/people/Kira.JPG
 
-  - name: Michelle Viotti
+- name: Michelle Viotti
   role: Events & Media Team
   email: michelle.viotti@oxai.org
 
-  - name: Yuki Asano
+- name: Yuki Asano
   role: Labs Team
   email: yuki.asano@oxai.org
   picture: /img/people/Yuki.jpg
-
 
 - name: Ding Shin Huang
   picture: /img/people/ding.jpg
