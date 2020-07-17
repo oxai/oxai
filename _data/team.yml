@@ -1,128 +1,89 @@
-- name: Hailey Trier
-  picture: /img/people/hailey.jpg
+- name: Odhran O'Donoghue
+  picture: /img/people/Odhran.jpg
   role: President
-  email: hailey.trier@oxai.org
+  email: president@oxai.org
 
-- name: Ruben Drayton
-  picture: /img/people/ruben.jpg
-  role: VP of Partnerships
-  email: ruben.drayton@oxai.org
-
-- name: Sanaa Asim
-  role: Social Rep
-  email: sanaa.asim@oxai.org
-  linkedin: https://www.linkedin.com/in/sanaa-asim-740691165/
-  
-- name: Tai-Ying Lee
-  picture: /img/people/taiying.png
-  role: Ethics Collaborator
-  linkedin: https://www.linkedin.com/in/taiyinglee/
-  email: tai-ying.lee@oxai.org
-
-- name: Kai Zhi Teh
-  role: Events Officer
-  email: kai.zhi.teh@oxai.org
-
-- name: Raghav Malik
-  picture: /img/people/raghav.png
-  role: VP of Careers
-  email: raghav.malik@oxai.org
-  linkedin: https://www.linkedin.com/in/raghav-malik-8a775042/
-
-- name: Guillermo Valle
-  picture: /img/people/guillermo.jpg
-  role: Labs Technology Officer
-  email: guillermo.valle@oxai.org
-  linkedin: https://www.linkedin.com/in/guillefix/
-  twitter: https://twitter.com/guillefix
-  facebook: https://www.facebook.com/guillermovalleperez
-  
-- name: Michael Collyer
-  role: Careers Collaborator
-  picture: /img/people/michael_collyer.PNG
-  email: michael.collyer@oxai.org
-  linkedin: https://www.linkedin.com/in/mcollyer/
-
-- name: Yingtong Chen
-  picture : /img/people/yingtong.jpg
-  role: Scrum Master
-  email: yingtong.chen@oxai.org
-
-- name: Sagar Vaze
-  role: Sponsorship and Careers Liaison
-  email: sagar.vaze@oxai.org
-  linkedin: https://uk.linkedin.com/in/sagar-vaze-2356ab171
-  twitter: https://twitter.com/Sagar_Vaze
-  picture: /img/people/sagar.jpg
+- name: Hannah Levinson
+  role: Vice President
+  email: hannah.levinson@oxai.org
 
 - name: Andrea Chatrian
   role: Treasurer
   email: andrea.chatrian@oxai.org
 
-- name: Joy Wang
-  role: Lead designer
-  email: joy.wang@oxai.org
-  picture: /img/people/joy.jpg
+- name: Sanaa Asim
+  role: Diversity & Inclusion Team Lead
+  email: sanaa.asim@oxai.org
+  linkedin: https://www.linkedin.com/in/sanaa-asim-740691165/
+  
+- name: Michael Collyer
+  role: Sponsorships, Partnerships & Careers Team Lead
+  picture: /img/people/michael_collyer.PNG
+  email: michael.collyer@oxai.org
+  linkedin: https://www.linkedin.com/in/mcollyer/
 
-- name: Dominika Bakalarz
-  picture: /img/people/dominika.jpg
-  role: Labs Communication Officer
-  email: dominika.bakalarz@oxai.org
-  linkedin: https://www.linkedin.com/in/dominikabakalarz/
-
-- name: Tim Seabrook
-  picture: /img/people/tim.png
-  role: Labs Projects Supervisor
-  email: timothy.seabrook@oxai.org
-
-- name: Ding Shin Huang
-  picture: /img/people/ding.jpg
-  role: Labs Resources Manager
-  email: ding.shin.huang@oxai.org
-
-- name: Shu Ishida
-  role: Labs Project Leader
-  email: shu.ishida@oxai.org
-  picture: /img/people/shu.jpg
+- name: Jenna Yehrim Park
+  role: Events & Media Team Lead
+  email: jenna.park@oxai.org
+  picture: /img/people/jenna.jpg
 
 - name: Suny Shtedritski
-  role: VP of Metrics
+  role: Labs Team Lead
   email: suny.shtedritski@oxai.org
   picture: /img/people/suny.png
 
-- name: Morgan Dumitru
-  picture: /img/people/morgan.jpg
-  role: VP of Ethics
-  email: morgan.dumitru@oxai.org
-  linkedin: https://www.linkedin.com/in/morgandumitru/
+- name: Sagar Vaze
+  role: Sponsorships Lead 
+  email: sagar.vaze@oxai.org
+  linkedin: https://uk.linkedin.com/in/sagar-vaze-2356ab171
+  twitter: https://twitter.com/Sagar_Vaze
+  picture: /img/people/sagar.jpg
 
-- name: Natalia Efremova
-  picture: /img/people/natalia.jpg
-  role: Senior Collaborator
-  email: natalia.efremova2@sbs.ox.ac.uk
-  twitter: https://twitter.com/burantiar
-  linkedin: https://www.linkedin.com/in/natalieef/
+- name: Jenny Shim
+  role: Careers Lead
+  email: jenny.shim@oxai.org
+  picture: /img/people/Jenny.JPG
 
-- name: Mengxi Wang
-  role: Labs Collaborator
-  email: mengxi.wang@oxai.org
-  picture: /img/people/mengxi.jpg
+- name: Jordan Ratner
+  role: Partnerships Lead
+  email: jordan.ratner@oxai.org
+  picture: /img/people/Jordan.jpg
 
-- name: Rayne Sullivan
-  role: VP of Global Affairs-Sponsorship
-  picture: /img/people/rayne.png
-  email: rayne.sullivan@oxai.org
+- name: Andre Frade
+  role: Careers Team
+  email: andre.frade@oxai.org
+  picture: /img/people/Andre.jpg
 
-- name: Ria Roque
-  role: Partnerships Collaborator
-  email:
+- name: Finlay Field
+  role: Events & Media Team
+  email: finlay.field@oxai.org
+  picture: /img/people/Finlay.JPG
 
-- name: Huw Roberts
-  role: VP of Public Relations
-  picture: /img/people/huw.jpg
-  email: huw.roberts@oxai.org
+  - name: Kate Zhu
+  role: Events & Media Team
+  email: kate.zhu@oxai.org
+  picture: /img/people/Kate.JPG
 
-- name: Jenna Yehrim Park
-  role: VP of Social Media
-  email: jenna.park@oxai.org
-  picture: /img/people/jenna.jpg
+  - name: Kira Miller
+  role: Events & Media Team
+  email: kira.miller@oxai.org
+  picture: /img/people/Kira.JPG
+
+  - name: Michelle Viotti
+  role: Events & Media Team
+  email: michelle.viotti@oxai.org
+
+  - name: Yuki Asano
+  role: Labs Team
+  email: yuki.asano@oxai.org
+  picture: /img/people/Yuki.jpg
+
+
+- name: Ding Shin Huang
+  picture: /img/people/ding.jpg
+  role: Sponsorships Team
+  email: ding.shin.huang@oxai.org
+
+- name: Kai Zhi Teh
+  role: Events & Media Team
+  email: kai.zhi.teh@oxai.org
