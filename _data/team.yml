@@ -6,6 +6,7 @@
 - name: Hannah Levinson
   role: Vice President
   email: hannah.levinson@oxai.org
+  picture: /img/people/hannah.JPG
 
 - name: Andrea Chatrian
   role: Treasurer
@@ -92,7 +93,3 @@
   picture: /img/people/ding.jpg
   role: Sponsorships Team
   email: ding.shin.huang@oxai.org
-
-- name: Kai Zhi Teh
-  role: Events & Media Team
-  email: kai.zhi.teh@oxai.org
