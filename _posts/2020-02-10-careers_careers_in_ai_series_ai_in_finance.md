@@ -74,7 +74,7 @@ Personal financial management has also been a particularly promising space. Some
 
 ### Types of Companies  
 
-Financial Services is also a popular sector for a large number of AI startups. In many cases, start-ups are aiming to disrupt the traditional businesses of the large banks. In other cases, they are looking to provide advanced new services to the banks to allow them to improve their product offerings. Some of the well known organizations are listed below.  
+Financial Services is also a popular sector for a large number of AI startups.   
 
 - Bulge Bracket Banks - JP Morgan, Goldman Sachs, Morgan Stanley   
 - Insurance - AIG, PWC, EY  
@@ -82,6 +82,7 @@ Financial Services is also a popular sector for a large number of AI startups. I
 - FINTECH - Monzo, Revolut, Atom  
 - Data Analytics    
 
+In many cases, start-ups are aiming to disrupt the traditional businesses of the large banks. In other cases, they are looking to provide advanced new services to the banks to allow them to improve their product offerings. Some of the well known organizations are listed below.  
 <br>
 <br>
 
