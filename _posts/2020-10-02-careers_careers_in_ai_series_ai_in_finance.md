@@ -115,6 +115,7 @@ Data analysts are in high demand across all sectors, such as finance, consulting
 <br>
 
 ### Example of Interview Questions  
+<br>
 
 ##### Examples of Competency based questions examples:  
 - Can you talk through a time you worked with a co-worker? How did you build that relationship?  
