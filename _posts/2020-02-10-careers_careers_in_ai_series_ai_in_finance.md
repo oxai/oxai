@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: 'Careers in AI: AI in Finance'
+title: 'Careers in AI - AI in Finance'
 author: Andre Frade, andre.frade@oxai.org
 email: Jenny Shim, jenny.shim@oxai.org
 ---
