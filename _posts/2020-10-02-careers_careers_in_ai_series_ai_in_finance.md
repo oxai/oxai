@@ -88,28 +88,24 @@ In many cases, start-ups are aiming to disrupt the traditional businesses of the
 
 ### Types of Jobs  
 <br>
+<br>
   
 **Risk Manager:** Financial risk analysts identify and analyse the areas of potential risk threatening the assets, earning capacity or success of organisations in the industrial, commercial or public sector.  Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/financial-risk-analyst).   
 <br>
 
-##### Compliance Expert  
-As a compliance officer, you're responsible for ensuring a company complies with its outside regulatory requirements and internal policies. In short, you're responsible for making sure that your employer plays by the rules. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/compliance-officer).  
+**Compliance Expert:** As a compliance officer, you're responsible for ensuring a company complies with its outside regulatory requirements and internal policies. In short, you're responsible for making sure that your employer plays by the rules. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/compliance-officer).  
 <br>
 
-##### Cybersecurity Analyst  
-As a cyber security analyst, you will protect IT infrastructure from a range of criminal activity. You will monitor networks and systems, detect security threats, analyse and assess alarms, and report on threats, intrusion attempts and false alarms, either resolving or escalating them, depending on the severity. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/cyber-security-analyst).   
+**Cybersecurity Analyst:** As a cyber security analyst, you will protect IT infrastructure from a range of criminal activity. You will monitor networks and systems, detect security threats, analyse and assess alarms, and report on threats, intrusion attempts and false alarms, either resolving or escalating them, depending on the severity. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/cyber-security-analyst).   
 <br>
 
-##### Quantitative Analyst  	
-A quantitative analyst provides research and information to help traders, fund managers and stockbrokers make decisions about investments. The information you provide ensures investment portfolios are well managed and that potential investment opportunities are highlighted. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/investment-analyst).    
+**Quantitative Analyst:** A quantitative analyst provides research and information to help traders, fund managers and stockbrokers make decisions about investments. The information you provide ensures investment portfolios are well managed and that potential investment opportunities are highlighted. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/investment-analyst).    
 <br>
 
-##### Financial Manager  
-A financial manager is responsible for providing financial guidance and support to clients and colleagues so they can make sound business decisions. As a financial manager, you'll need a good head for figures and for dealing with complex modelling and analysis, as well as a sound grasp of financial systems and procedures. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/financial-manager).  
+**Financial Manager:** A financial manager is responsible for providing financial guidance and support to clients and colleagues so they can make sound business decisions. As a financial manager, you'll need a good head for figures and for dealing with complex modelling and analysis, as well as a sound grasp of financial systems and procedures. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/financial-manager).  
 <br>
 
-##### Data Analyst  
-Data analysts are in high demand across all sectors, such as finance, consulting, manufacturing, pharmaceuticals, government and education. The ability to pay attention to detail, communicate well and be highly organised are essential skills for data analysts. They not only need to understand the data but be able to provide insight and analysis through clear visual, written and verbal communication. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/data-analyst).    	
+**Data Analyst:** Data analysts are in high demand across all sectors, such as finance, consulting, manufacturing, pharmaceuticals, government and education. The ability to pay attention to detail, communicate well and be highly organised are essential skills for data analysts. They not only need to understand the data but be able to provide insight and analysis through clear visual, written and verbal communication. Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/data-analyst).    	
 <br>
 <br>
 
