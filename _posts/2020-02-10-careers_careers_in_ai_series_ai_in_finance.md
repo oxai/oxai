@@ -11,7 +11,7 @@ email: andre.frade@oxai.org, jenny.shim@oxai.org
 <br>
 
 ## About the intersection  
----
+<hr style="border:2px solid black"> </hr>
 <br>
 
 *Today, machine learning has come to play an integral role in many parts of the financial ecosystem, from approving loans, to credit scores, to managing assets, and assessing risks.*  
@@ -30,9 +30,7 @@ Most companies in the space understand the potential of AI and have been adoptin
 <br>
 
 #### The intersection   
-AI is rapidly reshaping the business landscape of the financial industry. A global survey done by the Cambridge Centre for Alternative Finance and the World Economic Forum, which interviewed 151 big financial firms and FinTech’s across more than 30 countries, suggests that AI is a crucial business driver in the industry.   
-
-Several examples of AI initiatives at the largest banks are listed below:  
+AI is rapidly reshaping the business landscape of the financial industry. A global survey done by the Cambridge Centre for Alternative Finance and the World Economic Forum, which interviewed 151 big financial firms and FinTech’s across more than 30 countries, suggests that AI is a crucial business driver in the industry. Several examples of AI initiatives at the largest banks are listed below:  
 
 - JP Morgan is using AI to automate credit agreement analysis.  
 - Wells Fargo announced the creation of a dedicated Artificial Intelligence Enterprise Solutions team which will pursue payments technologies and improved customer experience for corporate banking customers.  
