@@ -80,7 +80,8 @@ Financial Services is also a popular sector for a large number of AI startups. I
 - Insurance - AIG, PWC, EY  
 - Consulting - Quantum Black, Accenture, IBM  
 - FINTECH - Monzo, Revolut, Atom  
-- Data Analytics   
+- Data Analytics    
+
 <br>
 <br>
 
