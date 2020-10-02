@@ -11,11 +11,13 @@
 - name: Andrea Chatrian
   role: Treasurer
   email: andrea.chatrian@oxai.org
+  picture: /img/people/blank.png
 
 - name: Sanaa Asim
   role: Diversity & Inclusion Team Lead
   email: sanaa.asim@oxai.org
   linkedin: https://www.linkedin.com/in/sanaa-asim-740691165/
+  picture: /img/people/blank.png
 
 - name: Michael Collyer
   role: Sponsorships, Partnerships & Careers Team Lead
@@ -83,6 +85,7 @@
 - name: Michelle Viotti
   role: Events & Media Team
   email: michelle.viotti@oxai.org
+  picture: /img/people/blank.png
 
 - name: Yuki Asano
   role: Labs Team
