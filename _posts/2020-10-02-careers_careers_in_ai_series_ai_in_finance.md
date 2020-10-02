@@ -86,7 +86,8 @@ In many cases, start-ups are aiming to disrupt the traditional businesses of the
 <br>
 <br>
 
-### Types of Jobs   
+### Types of Jobs ooo  
+#
 <br>
 
 ### Types of Jobs   
