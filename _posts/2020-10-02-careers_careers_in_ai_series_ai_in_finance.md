@@ -87,7 +87,9 @@ In many cases, start-ups are aiming to disrupt the traditional businesses of the
 <br>
 
 ### Types of Jobs   
-***
+<br>
+
+### Types of Jobs   
   
 #### Risk Manager  
 Financial risk analysts identify and analyse the areas of potential risk threatening the assets, earning capacity or success of organisations in the industrial, commercial or public sector.  Check all the details of the job responsibilities, skills, experience and salaries [here](https://www.prospects.ac.uk/job-profiles/financial-risk-analyst).   
