@@ -11,7 +11,7 @@ email: andre.frade@oxai.org, jenny.shim@oxai.org
 <br>
 
 ## About the intersection  
-<hr style="border:2px solid black"> </hr>
+---
 <br>
 
 *Today, machine learning has come to play an integral role in many parts of the financial ecosystem, from approving loans, to credit scores, to managing assets, and assessing risks.*  
@@ -38,7 +38,6 @@ Several examples of AI initiatives at the largest banks are listed below:
 - Wells Fargo announced the creation of a dedicated Artificial Intelligence Enterprise Solutions team which will pursue payments technologies and improved customer experience for corporate banking customers.  
 - Bank of America released an AI-powered virtual assistant that is planned to be implemented in their mobile app and ATM network.  
 - Citibank has made several investments in AI related companies, including Feedzai which uses AI to identify and fight fraud in online banking, or Clarity Money which recommends financial products to help customers save money and better manage their finances.  
-<br>
 <br>
 
 #### Future  
