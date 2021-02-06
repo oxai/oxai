@@ -14,7 +14,7 @@ This will be an ongoing project across multiple years. The initial stage will la
 </div>
 <br/>
 
-Check out our [Github repo](https://github.com/oxai/vrai/), and (not yet very active) [Discord group](discord.gg/HQ8Crcw)
+Check out our [Github repo](https://github.com/oxai/vrai/), and (not yet very active) [Discord group](https://discord.gg/nYUrPM4FZU)
 
 27/11/2019 We made a [seminar in Neos VR](https://www.youtube.com/watch?v=zReWBVZBuas&t=3205) introducing some of the motivations behind the project (and [the slides](https://docs.google.com/presentation/d/106DzzXIqv38yzSEHU4z07CcfHOEzo5YNH6Ee5V7tboo/edit?usp=sharing) from that)
 <div style="height:90vh;">
