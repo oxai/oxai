@@ -96,3 +96,33 @@
   picture: /img/people/ding.jpg
   role: Sponsorships Team
   email: ding.shin.huang@oxai.org
+
+- name: Elias Benussi
+  picture: /img/people/elias.jpg
+  role: Education Team
+  email: elias.benussi@oxai.org
+
+- name: Sam Silver
+  picture: /img/people/sam_silver.jpeg
+  role: Education Team
+  email: sam.silver@oxai.org
+
+- name: Jessie Jiang
+  picture: /img/people/jessie.png
+  role: Education Team
+  email: jessie.jiang@oxai.org
+
+- name: Lonie Sebagh
+  picture: /img/people/Lonie.jpg
+  role: Education Team Lead
+  email: lonie.sebagh@oxai.org
+
+- name: Brandon Smith
+  picture: /img/people/brandon.jpg
+  role: Education Team 
+  email: brandon.smith@oxai.org
+
+- name: Liam Bekirsky
+  picture: /img/people/liam.jpg
+  role: Education Team Lead 
+  email: liam.bekirsky@oxai.org
