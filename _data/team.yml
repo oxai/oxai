@@ -1,23 +1,12 @@
 - name: Odhran O'Donoghue
   picture: /img/people/Odhran.jpg
-  role: President
-  email: president@oxai.org
+  role: Treasurer
+  email: odhran.odonoghue@oxai.org
 
 - name: Hannah Levinson
   role: Vice President
   email: hannah.levinson@oxai.org
   picture: /img/people/hannah.JPG
-
-- name: Andrea Chatrian
-  role: Treasurer
-  email: andrea.chatrian@oxai.org
-  picture: /img/people/blank.png
-
-- name: Sanaa Asim
-  role: Diversity & Inclusion Team
-  email: sanaa.asim@oxai.org
-  linkedin: https://www.linkedin.com/in/sanaa-asim-740691165/
-  picture: /img/people/blank.png
 
 - name: Michael Collyer
   role: Sponsorships, Partnerships & Careers Team Lead
@@ -43,7 +32,7 @@
   picture: /img/people/sagar.jpg
 
 - name: Finlay Field
-  role: Events & Media Team
+  role: Education Team
   email: finlay.field@oxai.org
   picture: /img/people/Finlay.JPG
 
@@ -82,11 +71,6 @@
   email: kira.miller@oxai.org
   picture: /img/people/Kira.JPG
 
-- name: Michelle Viotti
-  role: Events & Media Team
-  email: michelle.viotti@oxai.org
-  picture: /img/people/blank.png
-
 - name: Yuki Asano
   role: Labs Team
   email: yuki.asano@oxai.org
@@ -99,8 +83,8 @@
 
 - name: Elias Benussi
   picture: /img/people/elias.jpg
-  role: Education Team
-  email: elias.benussi@oxai.org
+  role: President
+  email: president@oxai.org
 
 - name: Sam Silver
   picture: /img/people/sam_silver.jpeg
@@ -109,20 +93,10 @@
 
 - name: Jessie Jiang
   picture: /img/people/jessie.png
-  role: Education Team
+  role: Partnerships Team
   email: jessie.jiang@oxai.org
-
-- name: Lonie Sebagh
-  picture: /img/people/Lonie.jpg
-  role: Education Team Lead
-  email: lonie.sebagh@oxai.org
-
-- name: Brandon Smith
-  picture: /img/people/brandon.jpg
-  role: Education Team 
-  email: brandon.smith@oxai.org
 
 - name: Liam Bekirsky
   picture: /img/people/liam.jpg
-  role: Education Team Lead 
+  role: Education Team Lead
   email: liam.bekirsky@oxai.org
