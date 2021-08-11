@@ -1,14 +1,19 @@
 members:
 
-- name: Odhran O'Donoghue
-  picture: /img/people/Odhran.jpg
-  role: Treasurer
-  email: odhran.odonoghue@oxai.org
+- name: Elias Benussi
+  picture: /img/people/elias.jpg
+  role: President
+  email: president@oxai.org
 
 - name: Hannah Levinson
   role: Vice President
   email: hannah.levinson@oxai.org
   picture: /img/people/hannah.JPG
+
+- name: Odhran O'Donoghue
+  picture: /img/people/Odhran.jpg
+  role: Treasurer
+  email: odhran.odonoghue@oxai.org
 
 - name: Michael Collyer
   role: Sponsorships, Partnerships & Careers Team Lead
@@ -87,11 +92,6 @@ members:
   picture: /img/people/ding.jpg
   role: Sponsorships Team
   email: ding.shin.huang@oxai.org
-
-- name: Elias Benussi
-  picture: /img/people/elias.jpg
-  role: President
-  email: president@oxai.org
 
 - name: Sam Silver
   picture: /img/people/sam_silver.jpeg
