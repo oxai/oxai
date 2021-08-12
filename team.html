@@ -7,7 +7,6 @@ header: Team
 
     <div class="row">
 
-    <!-- {% for member in site.data.team.members %} -->
     {% assign len = site.data.team | size %}
     {% assign shuffled_array = site.data.team | sample: len %}
       {% for member in shuffled_array %}
@@ -44,7 +43,6 @@ header: Team
         <!-- </div> -->
       </div>
       {% endfor %}
-
 
 
   </div>
