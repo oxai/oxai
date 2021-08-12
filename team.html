@@ -7,7 +7,10 @@ header: Team
 
     <div class="row">
 
-    {% for member in site.data.team.members %}
+    <!-- {% for member in site.data.team.members %} -->
+    {% assign len = site.data.team | size %}
+    {% assign shuffled_array = site.data.team | sample: len %}
+      {% for member in shuffled_array %}
       <div class="col-md-4 mb-3 mb-md-0">
         <!-- <div class="card py-4 h-100"> -->
           <!-- <div class="card-body text-center"> -->
@@ -42,9 +45,6 @@ header: Team
       </div>
       {% endfor %}
 
-    <!-- {% assign len = site.data.team | size %} -->
-    <!-- {% assign shuffled_array = site.data.team | sample: len %} -->
-    <!--   {% for member in shuffled_array %} -->
 
 
   </div>
