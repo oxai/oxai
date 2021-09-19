@@ -19,6 +19,19 @@
   email: roxana.akhmetova@oxai.org
   picture: /img/people/Roxana.jpg
 
+- name: Tehillah Campbell
+  role: Diversity & Inclusion Team
+  email: tehillah.campbell@oxai.org
+
+- name: Haider Iqbal
+  role: Diversity & Inclusion Team
+  email: haider.iqbal@oxai.org
+  picture: /img/people/haider_iqbal.jpeg
+
+- name: Pascal Mensah
+  role: Diversity & Inclusion Team
+  email: pascal.mensah@oxai.org
+
 - name: Liam Bekirsky
   picture: /img/people/liam.jpg
   role: Education Team Lead
@@ -49,11 +62,15 @@
   email: ricardo.gonzales@oxai.org
   picture: /img/people/ricardo_gonzales.jpg
 
+- name: Nicola Green
+  role: Events & Media Team
+  email: nicola.green@oxai.org
+
 - name: Vitek Ruzicka
   role: Events & Media Team
   email: vit.ruzicka@oxai.org
   twitter: https://twitter.com/previtus
-  picture: /img/people/vit_ruzicka.jpeg
+  picture: /img/people/vit_ruzicka.jpg
 
 - name: Suny Shtedritski
   role: Labs Team Lead
@@ -65,16 +82,37 @@
   email: hannah.kirk@oxai.org
   picture: /img/people/hannah_kirk.jpg
 
+- name: Max Bain
+  role: Labs Team Lead
+  email: max.bain@oxai.org
+
 - name: Michael Collyer
   role: Sponsorships, Partnerships & Careers Team Lead
   picture: /img/people/michael_collyer.PNG
   email: michael.collyer@oxai.org
   linkedin: https://www.linkedin.com/in/mcollyer/
 
+- name: Rossella Gabriele
+  role: Careers Team Lead
+  email: rossella.gabriele@oxai.org
+
 - name: Skander Moalla
   role: Careers Team
   email: skander.moalla@oxai.org
   picture: /img/people/skander_moalla.JPG
+
+- name: Payas Sinha
+  role: Careers Team
+  email: payas.sinha@oxai.org
+
+- name: Jessie Jiang
+  picture: /img/people/jessie.png
+  role: Partnerships Lead
+  email: jessie.jiang@oxai.org
+
+- name: Nidhi Satish
+  role: Partnerships Team
+  email: nidhi.satish@oxai.org
 
 - name: Sagar Vaze
   role: Sponsorships Lead
@@ -93,13 +131,7 @@
   email: alex.matheson@oxai.org
   picture: /img/people/alex_matheson.jpg
 
-- name: Jessie Jiang
-  picture: /img/people/jessie.png
-  role: Partnerships Lead
-  email: jessie.jiang@oxai.org
-
 - name: Ding Shin Huang
   picture: /img/people/ding.jpg
   role: Sponsorships Team
   email: ding.shin.huang@oxai.org
-
