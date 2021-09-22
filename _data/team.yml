@@ -26,6 +26,7 @@
 - name: Haider Iqbal
   role: Diversity & Inclusion Team
   email: haider.iqbal@oxai.org
+  linkedin: https://www.linkedin.com/in/haideriqbals/
   picture: /img/people/haider_iqbal.jpeg
 
 - name: Pascal Mensah
@@ -48,6 +49,11 @@
   email: ciprian.florea@oxai.org
   linkedin: https://www.linkedin.com/in/ciprian-fl
   picture: /img/people/ciprian_florea.jpg
+
+- name: Jennivine Chen
+  role: Education Team
+  email: jianwen.chen@oxai.org
+  linkedin: https://www.linkedin.com/in/jennivine-chen-26341b171/
 
 - name: Sam Silver
   picture: /img/people/sam_silver.jpeg
@@ -76,6 +82,7 @@
 - name: Vitek Ruzicka
   role: Events & Media Team
   email: vit.ruzicka@oxai.org
+  linkedin: https://www.linkedin.com/in/vit-ruzicka/
   twitter: https://twitter.com/previtus
   instagram: https://www.instagram.com/vit_ruzicka/
   picture: /img/people/vit_ruzicka.jpg
@@ -83,6 +90,7 @@
 - name: Suny Shtedritski
   role: Labs Team Lead
   email: suny.shtedritski@oxai.org
+  linkedin: https://www.linkedin.com/in/aleksandar-shtedritski-152a09134/
   picture: /img/people/suny.png
 
 - name: Hannah Kirk
@@ -103,11 +111,13 @@
 - name: Rossella Gabriele
   role: Careers Team Lead
   email: rossella.gabriele@oxai.org
+  linkedin: https://www.linkedin.com/in/rossella-g-85b9bb87/
   picture: /img/people/rossella_gabriele.jpg
 
 - name: Skander Moalla
   role: Careers Team
   email: skander.moalla@oxai.org
+  linkedin: https://www.linkedin.com/in/skander-moalla/
   picture: /img/people/skander_moalla.JPG
 
 - name: Payas Sinha
