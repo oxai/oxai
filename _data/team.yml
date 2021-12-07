@@ -110,17 +110,17 @@
   email: michael.collyer@oxai.org
   linkedin: https://www.linkedin.com/in/mcollyer/
 
-- name: Rossella Gabriele
-  role: Careers Team Lead
-  email: rossella.gabriele@oxai.org
-  linkedin: https://www.linkedin.com/in/rossella-g-85b9bb87/
-  picture: /img/people/rossella_gabriele.jpg
-
 - name: Skander Moalla
-  role: Careers Team
+  role: Careers Team Lead
   email: skander.moalla@oxai.org
   linkedin: https://www.linkedin.com/in/skander-moalla/
   picture: /img/people/skander_moalla.JPG
+
+- name: Rossella Gabriele
+  role: Careers Team
+  email: rossella.gabriele@oxai.org
+  linkedin: https://www.linkedin.com/in/rossella-g-85b9bb87/
+  picture: /img/people/rossella_gabriele.jpg
 
 - name: Payas Sinha
   role: Careers Team
