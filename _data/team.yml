@@ -1,76 +1,65 @@
-- name: Odhran O'Donoghue
-  picture: /img/people/Odhran.jpg
+- name: Elias Benussi
+  picture: /img/people/elias.jpg
   role: President
   email: president@oxai.org
+  linkedin: https://www.linkedin.com/in/elias-benussi/
 
-- name: Hannah Levinson
+- name: Ben Bariach
   role: Vice President
-  email: hannah.levinson@oxai.org
-  picture: /img/people/hannah.JPG
+  email: ben.bariach@oxai.org
+  picture: /img/people/ben_bariach.jpeg
 
-- name: Andrea Chatrian
+- name: Odhran O'Donoghue
+  picture: /img/people/Odhran.jpg
   role: Treasurer
-  email: andrea.chatrian@oxai.org
-  picture: /img/people/blank.png
-
-- name: Sanaa Asim
-  role: Diversity & Inclusion Team
-  email: sanaa.asim@oxai.org
-  linkedin: https://www.linkedin.com/in/sanaa-asim-740691165/
-  picture: /img/people/blank.png
-
-- name: Michael Collyer
-  role: Sponsorships, Partnerships & Careers Team Lead
-  picture: /img/people/michael_collyer.PNG
-  email: michael.collyer@oxai.org
-  linkedin: https://www.linkedin.com/in/mcollyer/
-
-- name: Jenna Yehrim Park
-  role: Events & Media Team
-  email: jenna.park@oxai.org
-  picture: /img/people/jenna.jpg
-
-- name: Suny Shtedritski
-  role: Labs Team Lead
-  email: suny.shtedritski@oxai.org
-  picture: /img/people/suny.png
-
-- name: Sagar Vaze
-  role: Sponsorships Lead
-  email: sagar.vaze@oxai.org
-  linkedin: https://uk.linkedin.com/in/sagar-vaze-2356ab171
-  twitter: https://twitter.com/Sagar_Vaze
-  picture: /img/people/sagar.jpg
-
-- name: Finlay Field
-  role: Events & Media Team
-  email: finlay.field@oxai.org
-  picture: /img/people/Finlay.JPG
+  email: odhran.odonoghue@oxai.org
 
 - name: Roxana Akhmetova
   role: Diversity & Inclusion Team Lead
   email: roxana.akhmetova@oxai.org
   picture: /img/people/Roxana.jpg
 
-- name: Jenny Shim
-  role: Careers Lead
-  email: jenny.shim@oxai.org
-  picture: /img/people/Jenny.JPG
+- name: Tehillah Campbell
+  role: Diversity & Inclusion Team
+  email: tehillah.campbell@oxai.org
 
-- name: Jordan Ratner
-  role: Partnerships Lead
-  email: jordan.ratner@oxai.org
-  picture: /img/people/Jordan.jpeg
+- name: Haider Iqbal
+  role: Diversity & Inclusion Team
+  email: haider.iqbal@oxai.org
+  linkedin: https://www.linkedin.com/in/haideriqbals/
+  picture: /img/people/haider_iqbal.jpeg
 
-- name: Andre Frade
-  role: Careers Team
-  email: andre.frade@oxai.org
-  picture: /img/people/Andre.jpg
+- name: Pascal Mensah
+  role: Diversity & Inclusion Team
+  email: pascal.mensah@oxai.org
+  picture: /img/people/pascal_mensah.jpeg
 
-- name: Kate Zhu
-  role: Events & Media Team
-  email: kate.zhu@oxai.org
-  picture: /img/people/Kate.jpeg
+- name: Liam Bekirsky
+  picture: /img/people/liam.jpg
+  role: Education Team Lead
+  email: liam.bekirsky@oxai.org
+
+- name: Finlay Field
+  role: Education Team
+  email: finlay.field@oxai.org
+  picture: /img/people/Finlay.JPG
+
+- name: Ciprian Florea
+  role: Education Team
+  email: ciprian.florea@oxai.org
+  linkedin: https://www.linkedin.com/in/ciprian-fl
+  picture: /img/people/ciprian_florea.jpg
+
+- name: Jennivine Chen
+  role: Education Team
+  email: jianwen.chen@oxai.org
+  linkedin: https://www.linkedin.com/in/jennivine-chen-26341b171/
+  picture: /img/people/jennivine_chen.jpg
+
+- name: Sam Silver
+  picture: /img/people/sam_silver.jpeg
+  role: Education Team
+  email: sam.silver@oxai.org
 
 - name: Jonas Bozenhard
   role: Events & Media Team Lead
@@ -82,47 +71,90 @@
   email: kira.miller@oxai.org
   picture: /img/people/Kira.JPG
 
-- name: Michelle Viotti
+- name: Ricardo Gonzales
   role: Events & Media Team
-  email: michelle.viotti@oxai.org
-  picture: /img/people/blank.png
+  email: ricardo.gonzales@oxai.org
+  linkedin: https://www.linkedin.com/in/ra-gonzales/
+  picture: /img/people/ricardo_gonzales.jpg
 
-- name: Yuki Asano
-  role: Labs Team
-  email: yuki.asano@oxai.org
-  picture: /img/people/Yuki.jpg
+- name: Nicola Green
+  role: Events & Media Team
+  email: nicola.green@oxai.org
+
+- name: Vitek Ruzicka
+  role: Events & Media Team
+  email: vit.ruzicka@oxai.org
+  linkedin: https://www.linkedin.com/in/vit-ruzicka/
+  twitter: https://twitter.com/previtus
+  instagram: https://www.instagram.com/vit_ruzicka/
+  picture: /img/people/vit_ruzicka.jpg
+
+- name: Suny Shtedritski
+  role: Labs Team Lead
+  email: suny.shtedritski@oxai.org
+  linkedin: https://www.linkedin.com/in/aleksandar-shtedritski-152a09134/
+  picture: /img/people/suny.png
+
+- name: Hannah Kirk
+  role: Labs Team Lead
+  email: hannah.kirk@oxai.org
+  picture: /img/people/hannah_kirk.jpg
+
+- name: Max Bain
+  role: Labs Team Lead
+  email: max.bain@oxai.org
+
+- name: Michael Collyer
+  role: Sponsorships, Partnerships & Careers Team Lead
+  picture: /img/people/michael_collyer.PNG
+  email: michael.collyer@oxai.org
+  linkedin: https://www.linkedin.com/in/mcollyer/
+
+- name: Skander Moalla
+  role: Careers Team Lead
+  email: skander.moalla@oxai.org
+  linkedin: https://www.linkedin.com/in/skander-moalla/
+  picture: /img/people/skander_moalla.JPG
+
+- name: Rossella Gabriele
+  role: Careers Team
+  email: rossella.gabriele@oxai.org
+  linkedin: https://www.linkedin.com/in/rossella-g-85b9bb87/
+  picture: /img/people/rossella_gabriele.jpg
+
+- name: Payas Sinha
+  role: Careers Team
+  email: payas.sinha@oxai.org
+  picture: /img/people/payas_sinha.jpg
+
+- name: Jessie Jiang
+  picture: /img/people/jessie.png
+  role: Partnerships Lead
+  email: jessie.jiang@oxai.org
+
+- name: Nidhi Satish
+  role: Partnerships Team
+  email: nidhi.satish@oxai.org
+  linkedin: https://www.linkedin.com/in/nidhisatish/
+
+- name: Sagar Vaze
+  role: Sponsorships Lead
+  email: sagar.vaze@oxai.org
+  linkedin: https://uk.linkedin.com/in/sagar-vaze-2356ab171
+  twitter: https://twitter.com/Sagar_Vaze
+  picture: /img/people/sagar.jpg
+
+- name: Jenny Shim
+  role: Sponsorships Team
+  email: jenny.shim@oxai.org
+  picture: /img/people/Jenny.JPG
+
+- name: Alex Matheson
+  role: Sponsorships Team
+  email: alex.matheson@oxai.org
+  picture: /img/people/alex_matheson.jpg
 
 - name: Ding Shin Huang
   picture: /img/people/ding.jpg
   role: Sponsorships Team
   email: ding.shin.huang@oxai.org
-
-- name: Elias Benussi
-  picture: /img/people/elias.jpg
-  role: Education Team
-  email: elias.benussi@oxai.org
-
-- name: Sam Silver
-  picture: /img/people/sam_silver.jpeg
-  role: Education Team
-  email: sam.silver@oxai.org
-
-- name: Jessie Jiang
-  picture: /img/people/jessie.png
-  role: Education Team
-  email: jessie.jiang@oxai.org
-
-- name: Lonie Sebagh
-  picture: /img/people/Lonie.jpg
-  role: Education Team Lead
-  email: lonie.sebagh@oxai.org
-
-- name: Brandon Smith
-  picture: /img/people/brandon.jpg
-  role: Education Team 
-  email: brandon.smith@oxai.org
-
-- name: Liam Bekirsky
-  picture: /img/people/liam.jpg
-  role: Education Team Lead 
-  email: liam.bekirsky@oxai.org
