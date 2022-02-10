@@ -61,8 +61,14 @@
   role: Education Team
   email: sam.silver@oxai.org
 
-- name: Jonas Bozenhard
+- name: Ricardo Gonzales
   role: Events & Media Team Lead
+  email: ricardo.gonzales@oxai.org
+  linkedin: https://www.linkedin.com/in/ra-gonzales/
+  picture: /img/people/ricardo_gonzales.jpg
+
+- name: Jonas Bozenhard
+  role: Events & Media Team
   email: jonas.bozenhard@oxai.org
   picture: /img/people/Jonas.jpg
 
@@ -70,12 +76,6 @@
   role: Events & Media Team
   email: kira.miller@oxai.org
   picture: /img/people/Kira.JPG
-
-- name: Ricardo Gonzales
-  role: Events & Media Team
-  email: ricardo.gonzales@oxai.org
-  linkedin: https://www.linkedin.com/in/ra-gonzales/
-  picture: /img/people/ricardo_gonzales.jpg
 
 - name: Nicola Green
   role: Events & Media Team
