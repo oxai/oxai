@@ -158,3 +158,17 @@
   picture: /img/people/ding.jpg
   role: Sponsorships Team
   email: ding.shin.huang@oxai.org
+
+- name: Charlie Griffin
+  picture: /img/people/charlie_griffin.png
+  role: Safety Hub Team Lead
+  email: charlie.griffin@oxai.org
+  linkedin: https://www.linkedin.com/in/charlie-griffin-42b963168/
+
+- name: Catherine Brewer
+  role: Safety Hub Team
+  email: catherine.brewer@oxai.org
+
+- name: Joe Benton
+  role: Safety Hub Team
+  email: joe.benton@oxai.org
